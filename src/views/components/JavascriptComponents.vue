@@ -55,7 +55,7 @@
             </h2>
             <images></images>
             <h2 class="mt-lg mb-5">
-                <span>Javascript Components</span>
+                <span>PopUps</span>
             </h2>
             <h3 class="h4 text-success font-weight-bold mb-4">Modals</h3>
             <!-- Modals -->

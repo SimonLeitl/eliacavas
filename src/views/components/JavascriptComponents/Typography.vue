@@ -10,7 +10,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading 1</small>
             </div>
             <div class="col-sm-9">
-                <h1 class="mb-0">Argon Design System</h1>
+                <h1 class="mb-0">Harmony Design Webpack</h1>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -18,7 +18,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading 2</small>
             </div>
             <div class="col-sm-9">
-                <h2 class="mb-0">Argon Design System</h2>
+                <h2 class="mb-0">Harmony Design Webpack</h2>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -26,7 +26,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading 3</small>
             </div>
             <div class="col-sm-9">
-                <h3 class="mb-0">Argon Design System</h3>
+                <h3 class="mb-0">Harmony Design Webpack</h3>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -34,7 +34,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading 4</small>
             </div>
             <div class="col-sm-9">
-                <h4 class="mb-0">Argon Design System</h4>
+                <h4 class="mb-0">Harmony Design Webpack</h4>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -42,7 +42,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading 5</small>
             </div>
             <div class="col-sm-9">
-                <h5 class="mb-0">Argon Design System </h5>
+                <h5 class="mb-0">Harmony Design Webpack </h5>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -50,7 +50,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading 6</small>
             </div>
             <div class="col-sm-9">
-                <h6 class="mb-0">Argon Design System </h6>
+                <h6 class="mb-0">Harmony Design Webpack</h6>
             </div>
         </div>
         <!-- Display titles -->
@@ -60,7 +60,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Display 1</small>
             </div>
             <div class="col-sm-9">
-                <h1 class="display-1 mb-0">Argon Design System</h1>
+                <h1 class="display-1 mb-0">Harmony Design Webpack</h1>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -68,7 +68,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Display 2</small>
             </div>
             <div class="col-sm-9">
-                <h2 class="display-2 mb-0">Argon Design System</h2>
+                <h2 class="display-2 mb-0">Harmony Design Webpack</h2>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -76,15 +76,15 @@
                 <small class="text-uppercase text-muted font-weight-bold">Display 3</small>
             </div>
             <div class="col-sm-9">
-                <h3 class="display-3 mb-0">Argon Design System</h3>
+                <h3 class="display-3 mb-0">Harmony Design Webpack</h3>
             </div>
         </div>
         <div class="row py-3 align-items-center">
             <div class="col-sm-3">
-                <small class="text-uppercase text-muted font-weight-bold">Display 4</small>
+                <small class="text-uppercase text-muted font-weight-bold">Harmony Design Webpack</small>
             </div>
             <div class="col-sm-9">
-                <h4 class="display-4 mb-0">Argon Design System</h4>
+                <h4 class="display-4 mb-0">Harmony Design Webpack</h4>
             </div>
         </div>
         <!-- Specialized titles -->
@@ -94,7 +94,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading</small>
             </div>
             <div class="col-sm-9">
-                <h3 class="heading mb-0">Argon Design System</h3>
+                <h3 class="heading mb-0">Harmony Design Webpack</h3>
             </div>
         </div>
         <div class="row py-3 align-items-center">
@@ -102,7 +102,7 @@
                 <small class="text-uppercase text-muted font-weight-bold">Heading title</small>
             </div>
             <div class="col-sm-9">
-                <h3 class="heading-title text-warning mb-0">Argon Design System</h3>
+                <h3 class="heading-title text-warning mb-0">Harmony Design Webpack</h3>
             </div>
         </div>
         <div class="row py-3 align-items-center">

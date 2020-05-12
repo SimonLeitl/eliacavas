@@ -2,9 +2,9 @@
     <div>
         <hero></hero>
         <basic-elements></basic-elements>
-        <inputs></inputs>
+        <!--<inputs></inputs>-->
         <custom-controls></custom-controls>
-        <navigation></navigation>
+        <!--<navigation></navigation>-->
         <javascript-components></javascript-components>
         <icons></icons>
         <examples></examples>
@@ -31,7 +31,7 @@ export default {
     BasicElements,
     Inputs,
     CustomControls,
-    Navigation,
+    //Navigation,
     JavascriptComponents,
     Carousel,
     Icons,
