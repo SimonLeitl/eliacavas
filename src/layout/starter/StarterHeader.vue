@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+            <ul class="navbar-nav fixed-top navbar-nav-hover align-items-lg-center">
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
