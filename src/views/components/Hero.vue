@@ -14,12 +14,16 @@
 <!--            <span class="span-100"></span>-->
 <!--        </div>-->
 
-        <div class="video-background">
-            <div class="video-foreground">
-        <iframe width="560" height="100" src="https://www.youtube.com/embed/lRTtMcx6rSM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
+       <div class="video-background">
+           <div class="video-foreground">
+        <iframe width="560" height="100" src="https://www.youtube.com/embed/lRTtMcx6rSM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          </div>
 
+        <!-- <video src="video.mp4" type="mp4/video" autoplay="autoplay">
+        </video>        
+         -->
         <div class="container shape-container d-flex align-items-center">
 
             <div class="col px-0">

@@ -1,6 +1,7 @@
 <template>
     <div>
         <hero></hero>
+        <leistungen></leistungen>
         <basic-elements></basic-elements>
         <inputs></inputs>
         <custom-controls></custom-controls>
@@ -14,6 +15,7 @@
 </template>
 <script>
 import Hero from "./components/Hero";
+import Leistungen from "./components/Leistungen";
 import BasicElements from "./components/BasicElements";
 import Inputs from "./components/Inputs";
 import CustomControls from "./components/CustomControls";
@@ -28,6 +30,7 @@ export default {
   name: "components",
   components: {
       Hero,
+      Leistungen,
     BasicElements,
     Inputs,
     CustomControls,
