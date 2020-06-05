@@ -2,15 +2,18 @@
     <div>
         <hero></hero>
         <leistungen></leistungen>
+        <ablauf></ablauf>
         <basic-elements></basic-elements>
         <inputs></inputs>
         <custom-controls></custom-controls>
         <!--<navigation></navigation>-->
         <javascript-components></javascript-components>
-        <icons></icons>
-        <examples></examples>
-        <download-section></download-section>
+        <!--<icons></icons>-->
+      <!--  <examples></examples>
+        <download-section></download-section>-->
         <carousel></carousel>
+        <faq></faq>
+        <Kontakt></Kontakt>
     </div>
 </template>
 <script>
@@ -25,21 +28,27 @@ import Carousel from "./components/Carousel";
 import Icons from "./components/Icons";
 import Examples from "./components/Examples";
 import DownloadSection from "./components/DownloadSection";
+import faq from "./components/faq";
+import ablauf from "./components/ablauf";
+import Kontakt from "./components/Kontakt";
 
 export default {
   name: "components",
   components: {
+      Kontakt,
       Hero,
       Leistungen,
+      ablauf,
     BasicElements,
     Inputs,
     CustomControls,
     //Navigation,
     JavascriptComponents,
     Carousel,
-    Icons,
-    Examples,
-    DownloadSection
+    faq
+    //Icons,
+    //Examples,
+    //DownloadSection
   }
 };
 </script>
