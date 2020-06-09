@@ -10,6 +10,8 @@
 <div class="row test justify-content-center text-center">
     
   <div class="col-sm-4 ">
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
       <div class="shadow-lg  mb-5 bg-white rounded"> 
     <div class="card1">        
       <div class="card-body">         
@@ -22,9 +24,13 @@
             With supporting text below as a natural lead-in to additional content.</p>        
       </div>
     </div>
+    </div>
     </div>   
   </div>
   <div class="col-sm-4">
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"
+     data-aos-delay="100">
       <div class="shadow-lg  mb-5 bg-white rounded"> 
     <div class="card2">
       <div class="card-body">
@@ -38,8 +44,14 @@
          </div>
       </div>
     </div>
+    </div>
   </div>
-  <div class="col-sm-4">
+ 
+
+  <div id="test" class="col-sm-4 ">
+     <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"
+     data-aos-delay="200">
       <div class="shadow-lg  mb-5 bg-white rounded"> 
     <div class="card3">
       <div class="card-body">
@@ -52,17 +64,23 @@
             With supporting text below as a natural lead-in to additional content.</p>     
          </div>
       </div>
+      </div>
+    
     </div>
   </div>
 </div>
+
 </section>
 </template>
 
-<script>
+<script type="text/javascript">
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
+AOS.init();
 
 export default {
- 
+ AOS
  
 };
 
@@ -104,7 +122,8 @@ export default {
     background-size:  500% 95px;
     background-repeat: no-repeat;
     background-position-x: 0px; 
-    border-radius: 2px;   
+       
+   
       
 }
 .card2{
@@ -119,5 +138,6 @@ export default {
     background-repeat: no-repeat;
     background-position-x: -1000px;        
 }
+
 
 </style>
