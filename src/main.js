@@ -18,11 +18,18 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
+import jQuery from 'jquery'
+global.jQuery = jQuery
+let Bootstrap = require('bootstrap')
 import Argon from "./plugins/argon-kit";
 import './registerServiceWorker'
+import { VueperSlides, VueperSlide } from 'vueperslides';
+
+
 
 Vue.config.productionTip = false;
 Vue.use(Argon);
+
 new Vue({
   router,
   render: h => h(App)

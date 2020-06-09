@@ -1,7 +1,9 @@
 <template>
     <div>
         <hero></hero>
-        <leistungen></leistungen>
+        <leistungen></leistungen>        
+        <portfolio></portfolio>
+        <testimonials></testimonials>
         <ablauf></ablauf>
         <basic-elements></basic-elements>
         <inputs></inputs>
@@ -16,9 +18,12 @@
         <Kontakt></Kontakt>
     </div>
 </template>
+
 <script>
 import Hero from "./components/Hero";
 import Leistungen from "./components/Leistungen";
+import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonials";
 import BasicElements from "./components/BasicElements";
 import Inputs from "./components/Inputs";
 import CustomControls from "./components/CustomControls";
@@ -28,6 +33,8 @@ import Carousel from "./components/Carousel";
 import Icons from "./components/Icons";
 import Examples from "./components/Examples";
 import DownloadSection from "./components/DownloadSection";
+import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
 import faq from "./components/faq";
 import ablauf from "./components/ablauf";
 import Kontakt from "./components/Kontakt";
@@ -35,10 +42,15 @@ import Kontakt from "./components/Kontakt";
 export default {
   name: "components",
   components: {
+
+    Hero,
+    Leistungen,
+    Swiper,
+    SwiperSlide,
+    Portfolio,
+    Testimonials,
       Kontakt,
-      Hero,
-      Leistungen,
-      ablauf,
+        ablauf,
     BasicElements,
     Inputs,
     CustomControls,
