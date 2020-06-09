@@ -4,15 +4,18 @@
         <leistungen></leistungen>        
         <portfolio></portfolio>
         <testimonials></testimonials>
+        <ablauf></ablauf>
         <basic-elements></basic-elements>
         <inputs></inputs>
         <custom-controls></custom-controls>
         <!--<navigation></navigation>-->
         <javascript-components></javascript-components>
-        <icons></icons>
-        <examples></examples>
-        <download-section></download-section>
+        <!--<icons></icons>-->
+      <!--  <examples></examples>
+        <download-section></download-section>-->
         <carousel></carousel>
+        <faq></faq>
+        <Kontakt></Kontakt>
     </div>
 </template>
 
@@ -32,12 +35,19 @@ import Examples from "./components/Examples";
 import DownloadSection from "./components/DownloadSection";
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+
+import faq from "./components/faq";
+import ablauf from "./components/ablauf";
+import Kontakt from "./components/Kontakt";
+
 
 export default {
   name: "components",
   components: {
+
     Hero,
     Leistungen,
     Swiper,
@@ -45,15 +55,18 @@ export default {
     Portfolio,
     AOS,
     Testimonials,
+      Kontakt,
+        ablauf,
     BasicElements,
     Inputs,
     CustomControls,
     //Navigation,
     JavascriptComponents,
     Carousel,
-    Icons,
-    Examples,
-    DownloadSection
+    faq
+    //Icons,
+    //Examples,
+    //DownloadSection
   }
 };
 </script>
