@@ -36,7 +36,7 @@
                             <base-button tag="a"
                                          href="#"
                                          class="mb-3 mb-sm-0"
-                                         type="info"
+                                         type="primary"
                                          icon="ni ni-camera-compact">
                                 Mehr erfahren
                             </base-button>
