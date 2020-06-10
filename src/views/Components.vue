@@ -14,6 +14,7 @@
       <!--  <examples></examples>
         <download-section></download-section>-->
         <carousel></carousel>
+        <pakete></pakete>
         <faq></faq>
         <Kontakt></Kontakt>
     </div>
@@ -42,6 +43,7 @@ import 'aos/dist/aos.css';
 import faq from "./components/faq";
 import ablauf from "./components/ablauf";
 import Kontakt from "./components/Kontakt";
+import Pakete from "./components/Pakete";
 
 
 export default {
@@ -63,6 +65,7 @@ export default {
     //Navigation,
     //JavascriptComponents,
     Carousel,
+      Pakete,
     faq
     //Icons,
     //Examples,
