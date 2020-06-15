@@ -24,9 +24,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        Leistungen
-                    </a>
+                    <router-link to="/leistungen" class="nav-link nav-link-icon">Leistungen</router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#">
