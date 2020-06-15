@@ -29,14 +29,14 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        Galerie
-                    </a>
+                    <router-link to="/" class="nav-link nav-link-icon">Galerie</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="http://localhost:8081/ueberuns.vue">
+                  <!--  <a class="nav-link nav-link-icon" href="#">
+
                         Über uns
-                    </a>
+                    </a>-->
+                    <router-link to="/ueberuns" class="nav-link nav-link-icon">Über uns</router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#">

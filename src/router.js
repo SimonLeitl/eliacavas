@@ -7,6 +7,7 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import UeberUns from "./views/UeberUns.vue";
 
 Vue.use(Router);
 
@@ -55,6 +56,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/ueberuns",
+      name: "ueberuns",
+      components: {
+        header: AppHeader,
+        default: UeberUns,
         footer: AppFooter
       }
     }
