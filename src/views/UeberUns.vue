@@ -9,13 +9,18 @@
                 <span></span>
                 <span></span>
                 <span></span>
+
             </div>
+
+
         </section>
         <section class="section section-skew">
             <div class="container">
+
                 <card shadow class="card-profile mt--300" no-body>
                     <div class="px-4">
                         <div class="row justify-content-center">
+
                             <div class="col-lg-3 order-lg-1">
                                 <div class="card-profile-image">
                                     <a href="#">
@@ -80,6 +85,12 @@
                 <span></span>
                 <span></span>
                 <span></span>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="display-3 text-white">Kontakt</h2>
+
+                </div>
             </div>
             <div class="container pt-lg pb-200">
 
