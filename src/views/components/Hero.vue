@@ -63,9 +63,6 @@
 
 </script>
 <style>
-    
-    
-  
 
     .container.shape-container {
         position: absolute;

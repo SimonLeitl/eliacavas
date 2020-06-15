@@ -1,11 +1,14 @@
 <template>
-    <section class="section section-lg">
-
+    <section class="section section-lg ">
+    <container class="hidden-sm-down">
         <div class="row row-grid">
-           <div class="col col-sm-5" id="kontakt-links">
+           <div class="col col-sm-5 hidden-sm-down" id="kontakt-links">
                 <div class="row row-grid justify-content-center">
                     <h3 class="text-secondary">Jetzt Strategiegespräch vereinbaren</h3>
+
+
                 </div>
+               <b-row><base-button class="bg-secondary" style="color:black;"> Buchen</base-button></b-row>
             </div>
 
           <div class="col col-sm-7 bg-secondary">
@@ -60,7 +63,7 @@
 
         </div>
 
-
+    </container>
     </section>
 </template>
 

@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
+                    <a class="nav-link nav-link-icon" href="http://localhost:8081/ueberuns.vue">
                         Über uns
                     </a>
                 </li>

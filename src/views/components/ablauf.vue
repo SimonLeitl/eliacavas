@@ -22,7 +22,7 @@
 
                             <tab-pane key="tab2">
                                 <template slot="title">
-                                  Foto-Breefing
+                                  Foto-Briefing
                                 </template>
 
                                 <p class="description" style="text-align: left;">Es wird detailliert aufgeschrieben, welche Art von Fotos erstellt wird und was genau auf den Fotos zu sehen sein wird. Weiterhin halten wir fest, welche Fotos der Konkurrenz wir überbieten müssen, damit du dich klar von deinen Konkurrenten abheben kannst. Das Fotobriefing ist dann auch die Checkliste für das Fotoshooting.

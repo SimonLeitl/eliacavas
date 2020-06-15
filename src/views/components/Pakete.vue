@@ -1,12 +1,22 @@
 <template>
-    <section class="section-testimonials">
+    <section class="section-pakete section-shaped overflow-hidden my-0">
+        <div class="shape shape-style-1 shape-default shape-skew">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <div class="row text justify-content-center" @mouseover="showIconsAnimation = true">
             <div class="col-lg-8 text-center">
-                <h1 class="mb-0" style="color: #282d8c;">Pakete</h1>
+                <h1 class="mb-0" style="color:white;padding-top:25px;">Pakete</h1>
             </div>
         </div>
 
-        <div class="row test justify-content-center text-center">
+        <div class="row section-testimonials test justify-content-center text-center">
 
           <!--  <div class="col-sm-4 ">
                 <div data-aos="fade-up"
@@ -33,7 +43,7 @@
                     <div class="shadow-lg  mb-5 bg-white rounded">
                         <div class="card1">
                             <div class="card-header">
-                                <h5 class="card-title">Amazon/Ebay</h5>
+                                <h5 class="card-title" style="font-weight:bold;">Amazon/Ebay</h5>
                             </div>
                             <div class="card-body" id="onlineshop">
                                 <p class="card-text"> Ich hole in Rahmen der Foto-Richtlinien das beste aus deinen Fotos heraus, damit du dich von deinen Mitbewerbern hervorhebst und dir so den Klick des Kunden sicherst.
@@ -52,10 +62,10 @@
                 <div data-aos="fade-up"
 
                      data-aos-delay="100">
-                    <div class="shadow-lg  mb-5 bg-primary rounded">
+                    <div class="shadow-lg  mb-5 rounded" style="background-color:#282d8c">
                         <div class="card2">
                             <div class="card-header">
-                                <h5 class="card-title">Social Media Paket</h5>
+                                <h5 class="card-title" style="font-weight:bold;">Social Media Paket</h5>
                             </div>
                             <div class="card-body " id="socialMedia">
 
@@ -66,7 +76,7 @@
                                     <br><br>Mögliche Konstellationen:</p>
 
 
-                                <ul class="list-group list-group-flush" style="color:black;">
+                                <ul class="list-group list-group-flush" style="color:black; width:217px; margin-left:10px;">
                                     <li class="list-group-item">30 Fotos/Monat</li>
                                     <li class="list-group-item">15 Fotos/Monat</li>
                                     <li class="list-group-item">10 Fotos/Monat</li>
@@ -88,7 +98,7 @@
                     <div class="shadow-lg  mb-5 bg-white rounded">
                         <div class="card3">
                             <div class="card-header">
-                                <h5 class="card-title">Onlineshop-Paket</h5>
+                                <h5 class="card-title" style="font-weight:bold;">Onlineshop-Paket</h5>
                             </div>
                             <div class="card-body" id="onlineshop">
                                 <p class="card-text">Im Vergleich zu Amazon und Ebay gelten hier

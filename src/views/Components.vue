@@ -64,7 +64,7 @@ export default {
     //CustomControls,
     //Navigation,
     //JavascriptComponents,
-    Carousel,
+   // Carousel,
       Pakete,
     faq
     //Icons,
