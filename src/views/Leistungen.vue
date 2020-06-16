@@ -71,7 +71,7 @@
                 <!-- Feature Grafik -->
                 <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
                     <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right"
-                        data-aos-offset="500">
+                        data-aos-offset="1000">
                         <img class="icon2" src="@/assets/Images/Infografik.jpg"
                             style="width:100%; padding-rihgt:20%; margin-top:0%;">
                     </div>
@@ -97,7 +97,7 @@
                             kommuniziert diese auf dem visuellen Weg an deinen Kunden.</p>
                     </div>
                     <div class="col-lg" style="padding-left: 10%; width:100%; margin-top: 1%;" data-aos="fade-left"
-                        data-aos-offset="500">
+                        data-aos-offset="1200">
                         <img class="icon2" src="@/assets/Images/Moodshot.jpg"
                             style="width:100%; padding-rihgt:20%; margin-top:0%;">
                     </div>
@@ -105,7 +105,7 @@
                 <!-- Social Proof -->
                 <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
                     <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right"
-                        data-aos-offset="500">
+                        data-aos-offset="1900">
                         <img class="icon2" src="@/assets/Images/Socialproof.jpg"
                             style="width:100%; padding-rihgt:20%; margin-top:0%;">
                     </div>
@@ -143,7 +143,7 @@
         <section class="section section-lg pt-lg-0 section-contact-us">
             <div class="container">
                 <div class="row justify-content-center mt--300">
-                    <div class="col-lg-8" data-aos="flip-down" data-aos-offset="700">
+                    <div class="col-lg-8" data-aos="flip-down" data-aos-offset="2300">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Du hast noch Fragen?</h4>
                             <p class="mt-0">Ich beantworte sie dir gerne!</p>
