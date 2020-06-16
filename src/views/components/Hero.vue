@@ -24,9 +24,9 @@
         <!-- <video src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="mp4/video" autoplay="autoplay">
         </video>     -->
 
-        <video autoplay id="myVideo" muted loop>
+        <!-- <video autoplay id="myVideo" muted loop>
             <source src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="video/mp4">
-        </video>    
+        </video>     -->
         
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0">
@@ -65,7 +65,9 @@
 <style>
     
     
-  
+    .section-hero.section-shaped.my-0{
+        background-color: black;
+    }
 
     .container.shape-container {
         position: absolute;
