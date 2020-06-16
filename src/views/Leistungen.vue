@@ -6,13 +6,13 @@
             <div class="container pt-lg-md">
                 <div class="row justify-content-center">
                         <h1 class="pt-100 text-white" >Leistungen</h1>
-                        <h3 class="text-white" style="padding-top: 10%;">Verkaufsförderndes und ansprechendes Bildmaterial für dein Produkt</h3>                        
+                        <h3 class="text-white" style="padding-top: 5%;">Verkaufsförderndes und ansprechendes Bildmaterial für dein Produkt</h3>                        
                         <p style="text-align:center;color:white">Produktfoto ist nicht gleich Produktfoto. Es gibt verschiedene Arten dein Produkt darzustellen. Die verschiedenen Möglichkeiten möchte ich dir hier vorstellen.</p>
                 </div>
             </div>               
         </section> 
         <section class="beschreibung">
-             <div class="container pt-lg-md">
+             <div class="container pt-lg-md" >
                 <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
                       
                         <div class="col-lg" style="width:50%;  padding-right:10%; margin-top:-1%;" data-aos="fade-right">
@@ -69,15 +69,45 @@ Lichtreflexe der Umgebung angepasst.</p>
                             <h1 style="color:#282d8c;">Feature
 Grafik</h1>
                             <hr>
-                            <p class="text">Dein Produkt wird sich besser verkaufen, wenn du
-deiner Zielgruppe alle Vorteile deines Produktes
-näherbringst. Die Feauture Grafik ist dafür das
-passende Instrument. Durch passende Icons und
-Texten überzeugen wir deinen Kunden von deinem
-Produkt und sorgen so für das Vertrauen, das</p>
+                            <p class="text">Dein Produkt wird sich besser verkaufen, wenn du deiner Zielgruppe alle Vorteile
+deines Produktes näherbringst. Die Feauture Grafik ist dafür das passende
+Instrument. Durch passende Icons und Texten überzeugen wir deinen Kunden von
+deinem Produkt und sorgen so für das Vertrauen, das ausschlaggebend für die
+Kaufentscheidung ist.</p>
                         </div>
                 </div>
-            </div>       
+                
+                 <div class="row justify-content-center"  style="padding-bottom:20%; width:100%;">
+                        <div class="col-lg" >
+                            <h1 style="color:#282d8c;">Mood
+Shot</h1>
+                            <hr>
+                            <p class="text">95% der Kaufentscheidungen werden durch Emotionen im Unterbewusstsein
+ausgelöst. Ein Moodshot bündelt die Emotionen, die dein Produkt ausstrahlt und
+kommuniziert diese auf dem visuellen Weg an deinen Kunden.</p>
+                        </div>
+                        <div class="col-lg" style="padding-left: 10%; width:100%; margin-top: 1%;" data-aos="fade-left">
+                      <img class="icon2" src="@/assets/Images/Moodshot.jpg" style="width:100%; padding-rihgt:20%; margin-top:0%;">
+                <!-- </div> -->
+                        </div>
+                </div>
+                <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
+                        
+                        <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right">
+                            <img class="icon2" src="@/assets/Images/Socialproof.jpg" style="width:100%; padding-rihgt:20%; margin-top:0%;">
+                        </div>
+                        <div class="col-lg" style="">
+                            <h1 style="color:#282d8c;">Social
+Proof</h1>
+                            <hr>
+                            <p class="text">Dein Kunde nimmt deine Produktdarstellung schneller und vertrauenswürdiger
+auf, wenn sich darin Kundenbewertungen befinden. Wir sammeln deine
+Kundenbewertungen in einer Grafik und setzen sie visuell in Bezug zu deinem
+Produkt.</p>
+                        </div>
+                </div>
+            </div>
+                   
         </section>       
             <!-- Kontakt Hintegrund Shape-->
             <section class="section section-shaped my-0 overflow-hidden">
@@ -170,7 +200,7 @@ import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-s
     background-image: url(Shape5.png);
     background-repeat: no-repeat;    
     background-size: auto;  
-    padding-bottom: 10%;
+    padding-bottom: 12.5%;
 }
 .beschreibung{
     margin-top: 0;
