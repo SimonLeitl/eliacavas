@@ -17,11 +17,10 @@
             </div>
         </section>
         <!-- Beschreibung der Leistungen -->
-        <section class="beschreibung">
-            <div class="container pt-lg-md">
+        <section class="beschreibung" style="padding-right:15%; padding-left:15%;">            
                 <!-- Heroshot -->
                 <div class="row justify-content-center" style="padding-bottom:20%; width:100%; padding-top: 5%;">
-                    <div class="col-lg" style="width:100%;  padding-right:10%; margin-top:-1%;" data-aos="fade-right"
+                    <div class="col-lg " style="width:100%;  padding-right:10%; margin-top:-1%;" data-aos="fade-right"
                         data-aos-offset="500">
                         <img class="icon2" src="@/assets/Images/Heroshot.jpg" style="width:100%;">
                         <!-- "Bereitstellen der Bilder für Carousel, aufgrund von Bug" -->
@@ -120,7 +119,7 @@
                             Produkt.</p>
                     </div>
                 </div>
-            </div>
+            
         </section>
         <!-- Kontakt Hintegrund Shape-->
         <section class="section section-shaped my-0 overflow-hidden">
@@ -204,6 +203,10 @@
 <style scoped>
     .none {
         display: none;
+    }
+
+    .text{
+        font-size: 100%;
     }
 
     .carousel-text {
