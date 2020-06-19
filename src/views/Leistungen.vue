@@ -7,14 +7,14 @@
                 <div class="row justify-content-center">
                     <h1 class="pt-100 text-white" style="padding-top: 15%;">Leistungen</h1>
                     <h3 class="text-white" style="padding-top: 5%; text-align:center;" data-aos="fade-in"
-                        data-aos-easing="ease-in-sine" data-aos-delay="200">
+                        data-aos-easing="ease-in-sine" data-aos-delay="500">
                         Verkaufsförderndes und ansprechendes
                         Bildmaterial für dein Produkt
                     </h3>
-                    <p style="text-align:center;color:white" data-aos="fade-in" data-aos-delay="500"
+                    <p style="text-align:center;color:white;" data-aos="fade-in" data-aos-delay="1000"
                         data-aos-easing="ease-in-sine">
                         Produktfoto ist nicht gleich Produktfoto. Es gibt verschiedene
-                        Arten dein Produkt darzustellen. Die verschiedenen Möglichkeiten möchte ich dir hier vorstellen.
+                        Arten dein Produkt darzustellen.<br> Die verschiedenen Möglichkeiten möchte ich dir hier vorstellen.
                     </p>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     <img class="none" src="@/assets/Images/Slider für Anwendungs-Montage (nacher(2).jpg"
                         style="width:100%;" />
                 </div>
-                <div class="col-lg">
+                <div class="col-lg text" >
                     <h1 style="color:#282d8c;">Heroshot</h1>
                     <hr />
                     <p class="text">
@@ -48,7 +48,7 @@
             </div>
             <!-- Anwendungsmontagen -->
             <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
-                <div class="col-lg">
+                <div class="col-lg text">
                     <h1 style="color:#282d8c;">Anwendungsmontagen</h1>
                     <hr />
                     <p class="text">
@@ -79,11 +79,11 @@
             <!-- Feature Grafik -->
             <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
                 <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right"
-                    data-aos-offset="1000">
+                    data-aos-offset="800">
                     <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
                         style="width:100%; padding-rihgt:20%; margin-top:0%;" />
                 </div>
-                <div class="col-lg" style>
+                <div class="col-lg text">
                     <h1 style="color:#282d8c;">
                         Feature
                         Grafik
@@ -100,7 +100,7 @@
             </div>
             <!-- Mood Shot -->
             <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
-                <div class="col-lg">
+                <div class="col-lg text">
                     <h1 style="color:#282d8c;">
                         Mood
                         Shot
@@ -113,7 +113,7 @@
                     </p>
                 </div>
                 <div class="col-lg" style="padding-left: 10%; width:100%; margin-top: 1%;" data-aos="fade-left"
-                    data-aos-offset="1200">
+                    data-aos-offset="1100">
                     <img class="icon2 rounded transform-perspective-right" src="@/assets/Images/Moodshot.jpg"
                         style="width:100%; padding-rihgt:20%; margin-top:0%;" />
                 </div>
@@ -121,11 +121,11 @@
             <!-- Social Proof -->
             <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
                 <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right"
-                    data-aos-offset="1700">
+                    data-aos-offset="1300">
                     <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Socialproof.jpg"
                         style="width:100%; padding-rihgt:20%; margin-top:0%;" />
                 </div>
-                <div class="col-lg" style>
+                <div class="col-lg text" >
                     <h1 style="color:#282d8c;">
                         Social
                         Proof
@@ -162,7 +162,7 @@
         <section class="section section-lg pt-lg-0 section-contact-us">
             <div class="container">
                 <div class="row justify-content-center mt--300">
-                    <div class="col-lg-8" data-aos="flip-down" data-aos-offset="2100">
+                    <div class="col-lg-8" data-aos="flip-down" data-aos-offset="1450">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Du hast noch Fragen?</h4>
                             <p class="mt-0">Ich beantworte sie dir gerne!</p>
@@ -217,6 +217,10 @@
 <style scoped>
     .none {
         display: none;
+    }
+
+    .col-lg.text{
+       margin-top: 10%;
     }
 
     .text {
