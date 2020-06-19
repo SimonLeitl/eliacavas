@@ -8,7 +8,7 @@
 
 
                 </div>
-               <b-row><base-button class="bg-secondary" style="color:black;"> Buchen</base-button></b-row>
+               <date-pickers></date-pickers>
             </div>
 
           <div class="col col-sm-7 bg-secondary">
@@ -70,6 +70,7 @@
 <script>
     export default {
         name: "Kontakt"
+        
     }
 </script>
 

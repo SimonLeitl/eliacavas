@@ -1,12 +1,14 @@
 
 <template> 
 <section class="section-testimonials">
-    <div class="row text justify-content-center" @mouseover="showIconsAnimation = true">
-                    <div class="col-lg-8 text-center">
-                        <h1 class="mb-0" style="color: #282d8c;">Testemonials</h1>                    
-                    </div>
-                    
-                </div>   
+    <div class="container" style="padding-bottom: 40px">
+        <div class="row justify-content-center" @mouseover="showIconsAnimation = true">
+            <div class="col-lg-8 text-center">
+                <h1 class="mb-0" style="">Das sagen meine Kunden</h1>
+                <p>Lies hier was meine bisherigen Kunden zu meinem Produktfoto-Prozess sagen..</p>
+            </div>
+        </div>
+    </div>
 <div class="row test justify-content-center text-center">
     
   <div class="col-sm-4 ">

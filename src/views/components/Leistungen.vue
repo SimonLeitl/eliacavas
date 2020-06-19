@@ -5,11 +5,13 @@
                 <div class="row justify-content-center" @mouseover="showIconsAnimation = true">
                     <div class="col-lg-8 text-center">
                         <h1 class="mb-0" style="color: white;">Hiermit kann ich dir weiterhelfen</h1>
+                        <p style="color:white">Produktfotos zu erstellen ist ein kreativer Prozess, den ich für dich ausführe. Mit meiner Erfahrung leite ich dich in meinem
+                            Prozess von der Konzepterstellung zu den fertigen Produktfotos.</p>
                     </div>
 
                 </div>
             </div>
-                <div class="container">
+                <div class="container" id="icons">
                     <div class="row ">
                         <div class="col-sm " style="padding-top:5%;">
 
@@ -103,10 +105,13 @@ Produkt realitätsgetreu und mit all seinen Vorteilen darstelle.</p>
                         </div>
                     </div>
                 
-      
+
 
 
     </section>
+
+
+
 </template>
 <script>
 import AOS from 'aos';
@@ -160,9 +165,13 @@ export default {
 } */
 
 .section.leistungen{
+    padding-top:15px;
     background-image: url(Shape5.png);
     background-repeat: no-repeat;    
     background-size: auto;  
-    
+
 }
+    #icons{
+        margin-top:-30px;
+    }
 </style>
