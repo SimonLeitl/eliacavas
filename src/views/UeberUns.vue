@@ -51,26 +51,13 @@
                         <div class="mt-5 py-5 border-top text-center">
                             <div class="row justify-content-center">
                                 <div class="col-lg-9">
-                                    <p>Die Fotografie begleitet mich nun schon seit 10 Jahren durch mein Leben. Nach 12 Jahren Schule und 5 Jahren Studium habe ich dann auch endlich mal gemerkt, dass die Leidenschaft zur Fotografie mich so fesselt, dass ich ihr meine volle Aufmerksamkeit widmen wollte. So kam es zum Entschluss meinen abgeschlossenen Bachelor of Engineering auf Eis zu legen und seitdem agiere ich als Hochzeitsfotograf in Pforzheim.
-
-                                        ​
-
-                                        Nachdem ich die Hochzeiten meiner 42.923 Cousins und Cousinen, die mir alle zugesichert haben die Fotos seien besser als die des gebuchten Fotografen, fotografiert habe und ich dabei ein unglaublich erfüllendes Gefühl  hatte nach jedem eingefangenem Moment der Liebe und Freude war es für mich klar, das ist mein Ding!
-
-                                        ​
-
-                                        Meine geduldige Art übertrage ich gerne auf meine Fotografie. Ich lauere als Hochzeitsfotograf gerne im Hintergrund auf die magischen Momente eurer Zweisamkeit, anstatt euch mit überzogenen Posinganweisungen zu überschütten. Eine ins Ohr geflüsterte Liebesbekundung lässt eure Augen unendlich mal mehr strahlen als ein Hinterherziehen des Bräutigams an der Krawatte (sowas und andere gestellte Posen wird es bei mir nie geben! :D ).
-
-                                        ​
-
-                                        Eine Hochzeit kann durchaus eine stressige Angelegenheit werden, deshalb möchte ich mir mit euch die Zeit nehmen während den Shootings, damit ihr euch auf das konzentrieren könnt, was euch verbindet, nämlich eure Liebe.
-
-                                        Dazwischen gibt es natürlich auch die schnell wechselnden Momente in denen ich einfach abliefern muss bei der Dokumentation Eurer Hochzeit. Aber kein Problem, genauso würde ich mein Leben beschreiben. Eine Mischung aus kurzen Leistungssprints gemischt mit Momenten des einfachen Seins.
-
-                                        ​
-
-                                        Wenn ich euch mit meinem mit Romantik und Esoterik geladenen Ausschweif über meine Leidenschaft begeistern konnte, würde ich mich freuen euch persönlich kennenzulernen! :)</p>
-                                   <!-- <a href="#">Show more</a>-->
+                                    <p style="text-align:left;">Studiotür zu, Rollladen runter, Blitze und Musik an und Kopf in Kreativmodus. In meiner Zone fühle ich mich am wohlsten und das gibt mir Energie. Genau die Energie, die es braucht, um aus deinen Produktfotos das gewisse Extra für die Kaufentscheidung des Kunden herauszuholen.
+                                        Grundschule, Abitur, Studium, Bürojob – diese Kette habe ich nach meinem Bachelor-Studium (erst mal brav abgeschlossen) unterbrochen, weil ich mich nicht in einem „Nine to Five Job“ gesehen habe. Meine Gedanken waren ständig bei der Fotografie bis mich die Gedanken ans Fotografieren nächtelang wachgehalten haben. Aus diesem Hamsterrad bin ich ausgebrochen und habe mich nach 9 Jahren Fotografie selbstständig gemacht. Mittlerweile sind wir schon in Jahr 11. Jetzt dreht sich jeder Tag um die Fotografie und das ist perfekt so! Vor 5 Jahren habe ich meine Liebe zur persönlichen Weiterentwicklung entdeckt und seitdem liebe ich es neuen Herausforderungen entgegen zu sehen und daran zu wachsen, persönlich und fotografisch.
+                                        Hilfsbereit, empathisch, immer am lächeln und gut für eine kreative Idee – das bin Ich.
+                                        Der Name Produktfotos Prime ist dadurch entstanden, dass ich Dinge die auf dem Schreibtisch liegen gerne schnell und qualitativ hochwertig abarbeite.
+                                        Wenn du bis hier hin gelesen hast, dann lass uns doch gerne mal quatschen darüber wie wir deine Produktfotos auch auf das Prime-Level bringen.
+                                    </p>
+                                        <!-- <a href="#">Show more</a>-->
                                 </div>
                             </div>
                         </div>
