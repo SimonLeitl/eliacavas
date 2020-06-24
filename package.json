@@ -13,6 +13,7 @@
     "bootstrap-vue": "^2.15.0",
     "flatpickr": "^4.5.1",
     "jquery": "^3.5.1",
+    "lightbox2": "^2.11.1",
     "nouislider": "^11.1.0",
     "register-service-worker": "^1.5.2",
     "swiper": "^5.4.2",

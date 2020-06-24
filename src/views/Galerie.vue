@@ -1,3 +1,4 @@
+
 <template>
     <div class="galerie-page">
         <!-- Header-->
@@ -13,13 +14,14 @@
             <div class="row justify-content-center">
                 <h1 class="pt-100 text-black" style="color: #282d8c">Amazon und Ebay</h1>
 
-            </div>
+            </div>           
+
             <hr>
 
             <div class="row gallery">
 
                 <div class="col gallery" style="">
-                    <a href="/img/1 Startfoto.43af1340.jpg">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
                         <div class="overlay">
                             <a href="#" class="icon" title="User Profile">
                                 <i class="icon icon-sm ni ni-zoom-split-in"></i>
@@ -30,12 +32,24 @@
 
                 </div>
                 <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/4 Maße.jpg"></a>
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a><img class="img"
+                            src="@/assets/Images/Galerie/4 Maße.jpg">
                 </div>
                 <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/2Maße1.jpg"></a>
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div></a>
+                    <img class="img"
+                            src="@/assets/Images/Galerie/2Maße1.jpg">
                 </div>
                 <div class="col gallery" style="">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
@@ -48,8 +62,7 @@
                             src="@/assets/Images/Galerie/5Anwendung 1.jpg"></a>
                 </div>
                 <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/gut.jpg"></a>
+                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img" src="@/assets/Images/Galerie/gut.jpg"></a>
                 </div>
                 <div class="col gallery" style="">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
@@ -91,16 +104,17 @@
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/7 Bewertungen.jpg"></a>
                 </div>
-                
+
             </div>
             <div class="row gallery">
-                
+
                 <div class="col gallery" style="">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/4 Lifestyle 80x80.jpg"></a>
                 </div>
                 <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img" src="@/assets/Images/Galerie/6 Anwendung.jpg"></a>
+                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
+                            src="@/assets/Images/Galerie/6 Anwendung.jpg"></a>
                 </div>
                 <div class="col gallery" style="">
                     <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
@@ -111,7 +125,8 @@
                             src="@/assets/Images/Galerie/5 Vergleichsbild.jpg"></a>
                 </div>
                 <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img" src="@/assets/Images/Galerie/4 Lifestyle.jpg"></a>
+                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
+                            src="@/assets/Images/Galerie/4 Lifestyle.jpg"></a>
                 </div>
             </div>
         </section>
@@ -160,7 +175,7 @@
                     </a>
                     <img class="img" id="img1" src="@/assets/Images/Galerie/OchaOchaTee.jpg">
                 </div>
-                
+
                 <div class="col gallery" style="">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/Slider für Anwendungs-Montage (nacher(2).jpg"></a>
@@ -216,7 +231,6 @@
     import AOS from "aos";
     import "aos/dist/aos.css";
     
-
     AOS.init();
 
 
@@ -224,7 +238,7 @@
         AOS,
         data() {
             return {
-                showIconsAnimation: false
+                
             };
         },
         methods: {
@@ -236,6 +250,7 @@
         
 
 
+
     };
 
     window.onload = function () {
@@ -244,23 +259,26 @@
 </script>
 
 <style scoped>
+
+
     .galerie {
         background-image: url(Shape5.png);
         background-repeat: no-repeat;
-        background-size: auto;        
+        background-size: auto;
         padding-bottom: 16%;
     }
 
     .AmazonEbay {
         padding-right: 5%;
         padding-left: 5%;
-        
+
     }
 
     .SocialMedia {
         padding-right: 5%;
         padding-left: 5%;
-        padding-bottom: 5%;;
+        padding-bottom: 5%;
+        ;
     }
 
     .img {
