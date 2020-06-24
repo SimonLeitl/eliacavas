@@ -8,6 +8,7 @@ import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 import Leistungen from "./views/Leistungen.vue";
+import Galerie from "./views/Galerie.vue";
 
 Vue.use(Router);
 
@@ -65,6 +66,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Leistungen,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/galerie",
+      name: "galerie",
+      components: {
+        header: AppHeader,
+        default: Galerie,
         footer: AppFooter
       }
     }

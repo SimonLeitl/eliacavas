@@ -3,10 +3,10 @@
     <section class="section-hero section-shaped my-0">
        
        
-        <video autoplay muted autobuffer preload class="video-container__video" id="vid">
+        <!-- <video autoplay muted autobuffer preload class="video-container__video" id="vid">
             
             <source src="@/assets/Images/eliacameraframe.mp4" type="video/mp4">
-        </video>
+        </video> -->
 
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0">
@@ -70,7 +70,9 @@
         display: none;
     }
 
-
+    .section-hero{
+        background-color: black;
+    }
     .container.shape-container {
         position: absolute;
         bottom: 45%;

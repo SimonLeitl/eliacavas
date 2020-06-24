@@ -27,9 +27,7 @@
                     <router-link to="/leistungen" class="nav-link nav-link-icon">Leistungen</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
-                        Galerie
-                    </a>
+                    <router-link to="/galerie" class="nav-link nav-link-icon">Galerie</router-link>                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#">
