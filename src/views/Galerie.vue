@@ -6,21 +6,20 @@
             <!-- Header Text -->
             <div class="container pt-lg-md">
                 <div class="row justify-content-center">
-                    <h1 class="pt-100 text-white" style="padding-top: 15%;">Galerie</h1>
+                    <h1 class="pt-100 text-white" style="padding-top: 15%;" data-aos="fade-in" data-aos-duration="1000">Galerie</h1>
                 </div>
             </div>
         </section>
         <section class="AmazonEbay" style="">
             <div class="row justify-content-center">
-                <h1 class="pt-100 text-black" style="color: #282d8c">Amazon und Ebay</h1>
-
-            </div>           
+                <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000">Amazon und Ebay</h1>
+            </div>         
 
             <hr>
 
             <div class="row gallery">
 
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000">
                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
                         <div class="overlay">
                             <a href="#" class="icon" title="User Profile">
@@ -31,7 +30,7 @@
                     <img class="img" id="img1" src="@/assets/Images/Galerie/1 Startfoto.jpg">
 
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
                         <div class="overlay">
                             <a href="#" class="icon" title="User Profile">
@@ -41,7 +40,7 @@
                     </a><img class="img"
                             src="@/assets/Images/Galerie/4 Maße.jpg">
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style=""  data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
                         <div class="overlay">
                             <a href="#" class="icon" title="User Profile">
@@ -51,42 +50,42 @@
                     <img class="img"
                             src="@/assets/Images/Galerie/2Maße1.jpg">
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style=""  data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000"> 
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/2USPS.jpg"></a>
                 </div>
             </div>
-            <div class="row gallery">
-                <div class="col gallery" style="">
+            <div class="row gallery" >
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="500">
                     <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
                             src="@/assets/Images/Galerie/5Anwendung 1.jpg"></a>
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="500" data-aos-delay="200"> 
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img" src="@/assets/Images/Galerie/gut.jpg"></a>
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down"  data-aos-duration="1000" data-aos-offset="500" data-aos-delay="400" >
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/Foto1_Alkoholmeter_button_neu.jpg"></a>
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down"  data-aos-duration="1000" data-aos-offset="500" data-aos-delay="600" >
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/Anwendung 1.jpg"></a>
                 </div>
             </div>
             <div class="row gallery">
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150">
                     <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
                             src="@/assets/Images/Galerie/5Anwendung1.jpg"></a>
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150" data-aos-delay="200">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/6 Anwendungsbild2.jpg"></a>
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150" data-aos-delay="400">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/2Merkmale.jpg"></a>
                 </div>
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150" data-aos-delay="600">
                     <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
                             src="@/assets/Images/Galerie/Anwendung2.jpg"></a>
                 </div>
