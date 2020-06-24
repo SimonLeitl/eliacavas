@@ -246,10 +246,10 @@
     }
 
     .leistung {
-        background-image: url(Shape5.png);
+        background-image: url(shape6_1.png);
         background-repeat: no-repeat;
         background-size: auto;
-        padding-bottom: 12.5%;
+        padding-bottom: 5%;
     }
 
     .beschreibung {

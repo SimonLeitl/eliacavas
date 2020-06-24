@@ -261,7 +261,7 @@
 
 
     .galerie {
-        background-image: url(Shape5.png);
+        background-image: url(Shape7_1.png);
         background-repeat: no-repeat;
         background-size: auto;
         padding-bottom: 16%;
