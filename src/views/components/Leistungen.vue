@@ -166,7 +166,7 @@ export default {
 
 .section.leistungen{
     padding-top:15px;
-    background-image: url(Shape5.png);
+    background-image: url(shape6.png);
     background-repeat: no-repeat;    
     background-size: auto;  
 

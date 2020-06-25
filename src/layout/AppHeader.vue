@@ -2,8 +2,9 @@
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand" to="/">
-                <img src="img/brand/Logo (3).png" alt="logo">
-                <h5 style="color:white;">Elia Cavas Fotografie</h5>
+
+                <img src="img/brand/ecavasLogo.png" alt="logo">
+                <!--<h5 style="color:white;">Elia Cavas Fotografie</h5>-->
 
             </router-link>
 

@@ -1,14 +1,21 @@
 <template>
-    <section class="section section-lg ">
+
+    <section class="section section-lg">
+
+
     <container class="hidden-sm-down">
         <div class="row row-grid">
+            <div class="col-xs-">
+                Test
+            </div>
            <div class="col col-sm-5 hidden-sm-down" id="kontakt-links">
                 <div class="row row-grid justify-content-center">
                     <h3 class="text-secondary">Jetzt Strategiegespräch vereinbaren</h3>
-
-
                 </div>
-               <date-pickers></date-pickers>
+               <div class='input-group date' id='datetimepicker1'>
+                   <input type='text' class="form-control" />
+                   <input data-provide="datepicker">
+               </div>
             </div>
 
           <div class="col col-sm-7 bg-secondary">
@@ -68,10 +75,13 @@
 </template>
 
 <script>
+
     export default {
-        name: "Kontakt"
+        name: "Kontakt",
+        value: ''
 
     }
+
 </script>
 
 <style scoped>

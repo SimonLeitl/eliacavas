@@ -1,8 +1,9 @@
 <template>
 
         <section class="section section-lg overflow-hidden my-0">
+            <div class="container hidden-sm-down">
             <div class="row row-grid justify-content-center">
-                <div class="col-lg-8 text-center">
+                <div class="col-lg-10 text-center">
                     <h2 class="display-3">Ablauf
                       <!--  <span class="text-success">Ablauf</span>-->
                     </h2>
@@ -74,6 +75,7 @@
 
                     </tabs>
                 </div>
+            </div>
             </div>
 
         </section>
