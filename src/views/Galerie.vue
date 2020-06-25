@@ -22,7 +22,7 @@
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000">
                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
                         <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
+                            <a class="icon" title="User Profile">
                                 <i class="icon icon-sm ni ni-zoom-split-in"></i>
                             </a>
                         </div>
@@ -33,7 +33,7 @@
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
                         <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
+                            <a class="icon" title="User Profile">
                                 <i class="icon icon-sm ni ni-zoom-split-in"></i>
                             </a>
                         </div>
@@ -51,94 +51,212 @@
                             src="@/assets/Images/Galerie/2Maße1.jpg">
                 </div>
                 <div class="col gallery" style=""  data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000"> 
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/2USPS.jpg"></a>
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/2USPS.jpg">
+                   
                 </div>
             </div>
             <div class="row gallery" >
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="500">
-                    <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
-                            src="@/assets/Images/Galerie/5Anwendung 1.jpg"></a>
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/5Anwendung 1.jpg">                    
                 </div>
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="500" data-aos-delay="200"> 
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img" src="@/assets/Images/Galerie/gut.jpg"></a>
+                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/gut.jpg"> 
+                    
                 </div>
                 <div class="col gallery" style="" data-aos="fade-down"  data-aos-duration="1000" data-aos-offset="500" data-aos-delay="400" >
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/Foto1_Alkoholmeter_button_neu.jpg"></a>
+                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/Foto1_Alkoholmeter_button_neu.jpg">                     
                 </div>
                 <div class="col gallery" style="" data-aos="fade-down"  data-aos-duration="1000" data-aos-offset="500" data-aos-delay="600" >
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/Anwendung 1.jpg"></a>
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/Anwendung 1.jpg">   
+                    
                 </div>
             </div>
             <div class="row gallery">
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150">
-                    <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
-                            src="@/assets/Images/Galerie/5Anwendung1.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="900">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/5Anwendung1.jpg">                      
                 </div>
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150" data-aos-delay="200">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/6 Anwendungsbild2.jpg"></a>
+                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/6 Anwendungsbild2.jpg"> 
+                    
                 </div>
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150" data-aos-delay="400">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/2Merkmale.jpg"></a>
+                      <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/2Merkmale.jpg"> 
+                    
                 </div>
                 <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1150" data-aos-delay="600">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/Anwendung2.jpg"></a>
+                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/Anwendung2.jpg"> 
+                    
                 </div>
             </div>
             <div class="row gallery">
-                <div class="col gallery" style="">
-                    <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
-                            src="@/assets/Images/Galerie/5Montage.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1200">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/5Montage.jpg">                     
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/Anwendung1.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1200" data-aos-delay="200">
+                                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/Anwendung1.jpg">     
+                  
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/7 Bewertungen.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1200" data-aos-delay="400">
+                                <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/7 Bewertungen.jpg">    
+                    
                 </div>
 
             </div>
             <div class="row gallery">
 
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/4 Lifestyle 80x80.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1850">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon-sm" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/4 Lifestyle 80x80.jpg">   
+                    
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/6 Anwendung.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1850" data-aos-delay="200">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon-sm" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/6 Anwendung.jpg">   
+                   
                 </div>
-                <div class="col gallery" style="">
-                    <a href="/img/1 Startfoto.43af1340.jpg"> <img class="img" id="img1"
-                            src="@/assets/Images/Galerie/a+.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1850" data-aos-delay="400">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/a+.jpg">   
+                    
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/5 Vergleichsbild.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1850" data-aos-delay="600">
+                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon-sm" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/5 Vergleichsbild.jpg">   
+                   
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/4 Lifestyle.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="1850" data-aos-delay="800">
+                       <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                        <div class="overlay">
+                            <a class="icon-sm" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/4 Lifestyle.jpg">   
+                    
                 </div>
             </div>
         </section>
-        <section class="SocialMedia" style="">
+        <section class="SocialMedia" style="" >
             <div class="row justify-content-center">
-                <h1 class="pt-100 text-black" style="color: #282d8c">Social-Media und Onlineshop</h1>
+                <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="2550" 
+                data-aos-delay="0">Social-Media und Onlineshop</h1>
 
             </div>
             <hr>
 
             <div class="row gallery">
 
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2700" 
+                data-aos-delay="0">
                     <a href="/img/1 Startfoto.43af1340.jpg">
                         <div class="overlay">
                             <a href="#" class="icon" title="User Profile">
@@ -149,22 +267,47 @@
                     <img class="img" id="img1" src="@/assets/Images/Galerie/135_4.jpg">
 
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/DSC00013-31.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2600" 
+                data-aos-delay="200">
+                <a href="/img/1 Startfoto.43af1340.jpg">
+                        <div class="overlay">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/DSC00013-31.jpg">
+                    
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/Savour.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2600" 
+                data-aos-delay="400">
+                <a href="/img/1 Startfoto.43af1340.jpg">
+                        <div class="overlay">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/Savour.jpg">
+                    
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/final22.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2600" 
+                data-aos-delay="600">
+                <a href="/img/1 Startfoto.43af1340.jpg">
+                        <div class="overlay">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/final22.jpg">
+                    
                 </div>
             </div>
             <div class="row gallery">
 
-                <div class="col gallery" style="">
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2900" 
+                data-aos-delay="0">
                     <a href="/img/1 Startfoto.43af1340.jpg">
                         <div class="overlay">
                             <a href="#" class="icon" title="User Profile">
@@ -175,13 +318,29 @@
                     <img class="img" id="img1" src="@/assets/Images/Galerie/OchaOchaTee.jpg">
                 </div>
 
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/Slider für Anwendungs-Montage (nacher(2).jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2900" 
+                data-aos-delay="200">
+                <a href="/img/1 Startfoto.43af1340.jpg">
+                        <div class="overlay">
+                            <a href="#" class="icon-sm"  title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/Slider für Anwendungs-Montage (nacher(2).jpg">
+                    
                 </div>
-                <div class="col gallery" style="">
-                    <a href="img/1%20Startfoto.43af1340.jpg"><img class="img"
-                            src="@/assets/Images/Galerie/final2.jpg"></a>
+                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="2900" 
+                data-aos-delay="400">
+                  <a href="/img/1 Startfoto.43af1340.jpg">
+                        <div class="overlay">
+                            <a href="#" class="icon" title="User Profile">
+                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
+                            </a>
+                        </div>
+                    </a>
+                    <img class="img" id="img1" src="@/assets/Images/Galerie/final2.jpg">
+                 
                 </div>
             </div>
         </section>
@@ -204,7 +363,8 @@
             </div>
         </section>
         <!-- Kontaktformular-->
-        <section class="section section-lg pt-lg-0 section-contact-us">
+        <section class="section section-lg pt-lg-0 section-contact-us" data-aos="flip-down" data-aos-duration="1000" data-aos-offset="3500" 
+                data-aos-delay="0">
             <div class="container">
                 <div class="row justify-content-center mt--300">
                     <div class="col-lg-8" data-aos="flip-down" data-aos-offset="500">
@@ -330,7 +490,17 @@
         color: #282d8c;
         font-size: 200%;
         position: absolute;
-        top: 50%;
+        top: 50%;        
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+     .icon-sm {
+        color: #282d8c;
+        font-size: 200%;
+        position: absolute;
+        bottom: 55%;        
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
