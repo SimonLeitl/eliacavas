@@ -16,6 +16,7 @@
 
 */
 import Vue from "vue";
+import lightbox from "lightbox2";
 import App from "./App.vue";
 import router from "./router";
 import jQuery from 'jquery'
@@ -25,9 +26,7 @@ import Argon from "./plugins/argon-kit";
 import './registerServiceWorker'
 import { VueperSlides, VueperSlide } from 'vueperslides';
 
-import VueLazyLoad from 'vue-lazyload'
 
-Vue.use(VueLazyLoad)
 
 
 Vue.config.productionTip = false;

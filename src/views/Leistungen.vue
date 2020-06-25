@@ -22,15 +22,39 @@
         <!-- Beschreibung der Leistungen -->
         <section class="beschreibung" style="padding-right:15%; padding-left:15%;">
             <!-- Heroshot -->
-            <div class="row justify-content-center" style="padding-bottom:20%; width:100%; padding-top: 5%;">
-                <div class="col-lg" style="width:100%;  padding-right:10%; margin-top:-1%;" data-aos="fade-right"
-                    data-aos-offset="500">
-                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Heroshot.jpg"
-                        style="width:100%;" />
-                    <!-- "Bereitstellen der Bilder für Carousel, aufgrund von Bug" -->
-                    <img class="none" src="@/assets/Images/Slider für Anwendungs-Montage (vorher (1).jpg"
+            <img class="none" src="@/assets/Images/Slider für Anwendungs-Montage (vorher (1).jpg"
                         style="width:100%;" />
                     <img class="none" src="@/assets/Images/Slider für Anwendungs-Montage (nacher(2).jpg"
+                        style="width:100%;" />
+            <div class="row justify-content-center" style="padding-bottom:20%; width:100%; padding-top: 5%;">
+              
+                <!-- xsmall -->
+                <div class="col d-block d-sm-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right" >                 
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Heroshot.jpg"
+                        style="width:100%;" />    
+                </div>
+                 <!-- small -->
+                <div class="col d-none d-sm-block d-md-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Heroshot.jpg"
+                        style="width:100%;" />
+                </div>
+                 <!-- medium -->
+                <div class="col d-none d-md-block d-lg-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Heroshot.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- large ab hier seitlich-->
+                <div class="col  d-none d-lg-block d-xl-none" style="width:100%;  padding-right:10%; padding-top:9%;" data-aos="fade-right">
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Heroshot.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- xlarge -->
+                <div class="col d-none d-none d-xl-block" style="width:100%;  padding-right:10%; margin-top:0%;" data-aos="fade-right"                   
+                >
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Heroshot.jpg"
                         style="width:100%;" />
                 </div>
                 <div class="col-lg text" >
@@ -47,23 +71,10 @@
                 </div>
             </div>
             <!-- Anwendungsmontagen -->
-            <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
-                <div class="col-lg text">
-                    <h1 style="color:#282d8c;">Anwendungsmontagen</h1>
-                    <hr />
-                    <p class="text">
-                        Fotoshooting mit echten Models können sehr
-                        kostenintensiv sein. Mit einer Photoshop Montage
-                        bestehend aus einem Stockfoto und deinem Produkt
-                        gibt es eine kostengünstigere Variante. Dein Produkt
-                        wird in der Perspektive des Stockfotos fotografiert. In
-                        der Bildbearbeitung werden die Farbe, Schärfe und
-                        Lichtreflexe der Umgebung angepasst.
-                    </p>
-                </div>
-                <div class="col-lg" style="padding-left: 10%; width:100%; margin-top: 1%;" data-aos="fade-left"
-                    data-aos-offset="500">
-                    <div class="rounded rounded-lg p-0 overflow-hidden transform-perspective-right" id="carousel">
+             <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
+             <!-- xsmall -->
+                <div class="col d-block d-sm-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right" >                 
+                   <div class="rounded rounded-lg p-0 overflow-hidden transform-perspective-right" id="carousel">
                         <b-carousel id="carousel1 rounded-lg p-0 " controls indicators>
                             <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (vorher (1).5f56f1bb.jpg"
                                 style="border-radius: 50px;">
@@ -75,14 +86,124 @@
                         </b-carousel>
                     </div>
                 </div>
-            </div>
-            <!-- Feature Grafik -->
-            <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
-                <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right"
-                    data-aos-offset="800">
-                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
-                        style="width:100%; padding-rihgt:20%; margin-top:0%;" />
+                 <!-- small -->
+                <div class="col d-none d-sm-block d-md-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                <div class="rounded rounded-lg p-0 overflow-hidden transform-perspective-right" id="carousel">
+                        <b-carousel id="carousel1 rounded-lg p-0 " controls indicators>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (vorher (1).5f56f1bb.jpg"
+                                style="border-radius: 50px;">
+                                <p class="carousel-text" style="color:white;">Vorher</p>
+                            </b-carousel-slide>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (nacher(2).b0c0c9ad.jpg">
+                                <p class="carousel-text">Nachher</p>
+                            </b-carousel-slide>
+                        </b-carousel>
+                    </div>
                 </div>
+                 <!-- medium -->
+                <div class="col d-none d-md-block d-lg-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                <div class="rounded rounded-lg p-0 overflow-hidden transform-perspective-right" id="carousel">
+                        <b-carousel id="carousel1 rounded-lg p-0 " controls indicators>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (vorher (1).5f56f1bb.jpg"
+                                style="border-radius: 50px;">
+                                <p class="carousel-text" style="color:white;">Vorher</p>
+                            </b-carousel-slide>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (nacher(2).b0c0c9ad.jpg">
+                                <p class="carousel-text">Nachher</p>
+                            </b-carousel-slide>
+                        </b-carousel>
+                    </div>
+                </div>
+                <!-- xs-->
+                <div class="col-lg text d-block d-sm-none">                    
+                    <h1 style="color:#282d8c; ">Montagen</h1>
+                    <hr />
+                    <p class="text">
+                        Fotoshooting mit echten Models können sehr
+                        kostenintensiv sein. Mit einer Photoshop Montage
+                        bestehend aus einem Stockfoto und deinem Produkt
+                        gibt es eine kostengünstigere Variante. Dein Produkt
+                        wird in der Perspektive des Stockfotos fotografiert. In
+                        der Bildbearbeitung werden die Farbe, Schärfe und
+                        Lichtreflexe der Umgebung angepasst.
+                    </p>
+                </div>
+                <!-- hide on xs -->
+                <div class="col-lg text d-none d-sm-block">
+                    <h1 style="color:#282d8c; padding-right:1%;">Anwendungsmontagen</h1>
+                    <hr />
+                    <p class="text">
+                        Fotoshooting mit echten Models können sehr
+                        kostenintensiv sein. Mit einer Photoshop Montage
+                        bestehend aus einem Stockfoto und deinem Produkt
+                        gibt es eine kostengünstigere Variante. Dein Produkt
+                        wird in der Perspektive des Stockfotos fotografiert. In
+                        der Bildbearbeitung werden die Farbe, Schärfe und
+                        Lichtreflexe der Umgebung angepasst.
+                    </p>
+                </div>
+                <!-- large ab hier seitlich-->
+                <div class="col d-none d-lg-block d-xl-none" style="width:100%;  padding-right:0%; padding-top:9%;" data-aos="fade-left">
+                    <div class="rounded rounded-lg p-0 overflow-hidden transform-perspective-right" id="carousel" >
+                        <b-carousel id="carousel1 rounded-lg p-0 " controls indicators>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (vorher (1).5f56f1bb.jpg"
+                                style="border-radius: 50px;">
+                                <p class="carousel-text" style="color:white;">Vorher</p>
+                            </b-carousel-slide>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (nacher(2).b0c0c9ad.jpg">
+                                <p class="carousel-text">Nachher</p>
+                            </b-carousel-slide>
+                        </b-carousel>
+                    </div>
+                </div>
+                <!-- xlarge -->
+                <div class="col d-none d-none d-xl-block" style="width:100%;  padding-right:10%; margin-top:0%;" data-aos="fade-right"                   
+                ><div class="rounded rounded-lg p-0 overflow-hidden transform-perspective-right" id="carousel" >
+                        <b-carousel id="carousel1 rounded-lg p-0 " controls indicators>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (vorher (1).5f56f1bb.jpg"
+                                style="border-radius: 50px;">
+                                <p class="carousel-text" style="color:white;">Vorher</p>
+                            </b-carousel-slide>
+                            <b-carousel-slide img-src="/img/Slider für Anwendungs-Montage (nacher(2).b0c0c9ad.jpg">
+                                <p class="carousel-text">Nachher</p>
+                            </b-carousel-slide>
+                        </b-carousel>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Feature Grafik -->            
+            <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
+                <!-- xsmall -->
+                <div class="col d-block d-sm-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right" >                 
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
+                        style="width:100%;" />    
+                </div>
+                 <!-- small -->
+                <div class="col d-none d-sm-block d-md-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
+                        style="width:100%;" />
+                </div>
+                 <!-- medium -->
+                <div class="col d-none d-md-block d-lg-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- large ab hier seitlich-->
+                <div class="col  d-none d-lg-block d-xl-none" style="width:100%;  padding-right:10%; padding-top:9%;" data-aos="fade-right">
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- xlarge -->
+                <div class="col d-none d-none d-xl-block" style="width:100%;  padding-right:10%; margin-top:0%;" data-aos="fade-right"                   
+                >
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Infografik.jpg"
+                        style="width:100%;" />
+                </div>
+                
                 <div class="col-lg text">
                     <h1 style="color:#282d8c;">
                         Feature
@@ -112,19 +233,69 @@
                         kommuniziert diese auf dem visuellen Weg an deinen Kunden.
                     </p>
                 </div>
-                <div class="col-lg" style="padding-left: 10%; width:100%; margin-top: 1%;" data-aos="fade-left"
-                    data-aos-offset="1100">
+                <!-- xsmall -->
+                <div class="col d-block d-sm-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-left" >                 
+                
                     <img class="icon2 rounded transform-perspective-right" src="@/assets/Images/Moodshot.jpg"
-                        style="width:100%; padding-rihgt:20%; margin-top:0%;" />
+                        style="width:100%;" />    
                 </div>
+                 <!-- small -->
+                <div class="col d-none d-sm-block d-md-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-left">                   
+                
+                    <img class="icon2 rounded transform-perspective-right" src="@/assets/Images/Moodshot.jpg"
+                        style="width:100%;" />
+                </div>
+                 <!-- medium -->
+                <div class="col d-none d-md-block d-lg-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-left">                   
+                
+                    <img class="icon2 rounded transform-perspective-right" src="@/assets/Images/Moodshot.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- large ab hier seitlich-->
+                <div class="col  d-none d-lg-block d-xl-none" style="width:100%;  padding-right:10%; padding-top:9%;" data-aos="fade-left">
+                    <img class="icon2 rounded transform-perspective-right" src="@/assets/Images/Moodshot.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- xlarge -->
+                <div class="col d-none d-none d-xl-block" style="width:100%;  padding-right:10%; margin-top:0%;" data-aos="fade-left"                   
+                >
+                    <img class="icon2 rounded transform-perspective-right" src="@/assets/Images/Moodshot.jpg"
+                        style="width:100%;" />
+                </div>
+                
             </div>
             <!-- Social Proof -->
             <div class="row justify-content-center" style="padding-bottom:20%; width:100%;">
-                <div class="col-lg" style="padding-right:10%; width:100%; margin-top: 1%;" data-aos="fade-right"
-                    data-aos-offset="1300">
+                <!-- xsmall -->
+                <div class="col d-block d-sm-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right" >                 
+                
                     <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Socialproof.jpg"
-                        style="width:100%; padding-rihgt:20%; margin-top:0%;" />
+                        style="width:100%;" />    
                 </div>
+                 <!-- small -->
+                <div class="col d-none d-sm-block d-md-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Socialproof.jpg"
+                        style="width:100%;" />
+                </div>
+                 <!-- medium -->
+                <div class="col d-none d-md-block d-lg-none" style="width:100%;  padding-right:10%; padding-top:0%;" data-aos="fade-right">                   
+                
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Socialproof.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- large ab hier seitlich-->
+                <div class="col  d-none d-lg-block d-xl-none" style="width:100%;  padding-right:10%; padding-top:9%;" data-aos="fade-right">
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Socialproof.jpg"
+                        style="width:100%;" />
+                </div>
+                <!-- xlarge -->
+                <div class="col d-none d-none d-xl-block" style="width:100%;  padding-right:10%; margin-top:0%;" data-aos="fade-right"                   
+                >
+                    <img class="icon2 rounded transform-perspective-left" src="@/assets/Images/Socialproof.jpg"
+                        style="width:100%;" />
+                </div>
+                
                 <div class="col-lg text" >
                     <h1 style="color:#282d8c;">
                         Social
@@ -162,7 +333,7 @@
         <section class="section section-lg pt-lg-0 section-contact-us">
             <div class="container">
                 <div class="row justify-content-center mt--300">
-                    <div class="col-lg-8" data-aos="flip-down" data-aos-offset="1450">
+                    <div class="col-lg-8" data-aos="flip-down" >
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Du hast noch Fragen?</h4>
                             <p class="mt-0">Ich beantworte sie dir gerne!</p>
@@ -185,7 +356,10 @@
     import AOS from "aos";
     import "aos/dist/aos.css";
 
-    AOS.init();
+    AOS.init({
+        duration:1000,
+        offset: 400,
+    });
 
     import {
         BCarousel
@@ -248,8 +422,8 @@
     .leistung {
         background-image: url(shape6_1.png);
         background-repeat: no-repeat;
-        background-size: auto;
-        padding-bottom: 5%;
+        background-size: auto 100% ;
+        padding-bottom: 15%;
     }
 
     .beschreibung {
