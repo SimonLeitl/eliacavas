@@ -72,7 +72,7 @@
                          @click="openGallery(index)" >                         
                     </li>
                 </ul>
-                <!-- <LightBox ref="lightbox1" :media="media_sm" :show-caption="false" startAt="" :show-light-box="false" /> -->
+                <LightBox ref="lightbox1" :media="media_sm" :show-caption="false" startAt="21" :show-light-box="false" />
                 
             </div>
         </section> 
