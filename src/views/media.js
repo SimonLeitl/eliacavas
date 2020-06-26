@@ -6,7 +6,7 @@ const media = [
     {
       thumb: '/img/4 Maße.4533095e.jpg',
       src: '/img/4 Maße.4533095e.jpg',
-      caption: '<h4>Elephant</h4>',
+     
     },
     {
       thumb: '/img/2Maße1.f64aec67.jpg',
@@ -99,7 +99,7 @@ const media = [
     {
       thumb: '/img/135_4.9dabcef2.jpg',
       src: '/img/135_4.9dabcef2.jpg',
-      caption: '<h4>Elephant</h4>',
+      
     },
     {
       thumb: '/img/DSC00013-31.a263916c.jpg',
