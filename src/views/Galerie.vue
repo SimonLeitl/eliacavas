@@ -13,49 +13,15 @@
        
 
       <section class="AmazonEbay" style="">
-          <!-- <div class="row gallery">
+               <div>
+                <ul>
+                    <li v-for="(image, index) in media" :key="index" style="display: inline-block;">
+                        <img v-lazy="image.src || image.thumb" style=" height: 20em;" @click="openGallery(index)">
+                    </li>
+                </ul>
 
-                <div class="col gallery" style="" data-aos="fade-down" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/1 Startfoto.jpg">
-
-                </div>
-          </div>
-                <div class="row gallery">
-
-                <div class="col gallery" style="" data-aos="fade-down" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/1 Startfoto.jpg">
-
-                </div>
-                </div>
-                <div class="row gallery">
-
-                <div class="col gallery" style="" data-aos="fade-down" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/1 Startfoto.jpg">
-
-                </div>
-                </div> -->
-                
+                <LightBox ref="lightbox" :media="media" :show-caption="true" :show-light-box="false" />
+            </div>           
                 
             <div class="row justify-content-center">
                 <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000">Amazon und Ebay</h1>
@@ -444,7 +410,9 @@
 <script>
     import AOS from "aos";
     import "aos/dist/aos.css"; 
-    //require('@/assets/css/lightbox.css');
+     import media from './dummy'
+     import LightBox from 'vue-image-lightbox'
+    require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
     AOS.init({
         duration:1000,
         offset: 200,
@@ -452,7 +420,20 @@
     export default {
         AOS,
         name: "galerie",
-        
+        media,
+        components: {
+            LightBox,
+        },
+        methods:{
+        openGallery(index) {
+                this.$refs.lightbox.showImage(index)
+            },},
+            data () {
+    return {
+      media,
+   
+    }
+  },
     };
 
     window.onload = function () {
