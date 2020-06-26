@@ -10,15 +10,8 @@
                 </div>
             </div>
         </section>
-       
-
       <section class="AmazonEbay" style="">
-          <!-- <div class="row justify-content-center"> -->
-              
-                
-            <!-- </div>   -->
-                
-                
+         
             <div class="row justify-content-center">
                 <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000">Amazon und Ebay</h1>
             </div>         
@@ -43,8 +36,7 @@
         </section>
         <section class="Socialmedia" style="" >
             <!-- xs -->
-            <div class="row justify-content-center ">
-                
+            <div class="row justify-content-center ">                
                 <div class="col d-block d-sm-none" align="center">
                 <h1 class="pt-100 text-black " style="color: #282d8c" data-aos="fade-in" data-aos-duration="1000" 
                 data-aos-delay="0">Socialmedia und Onlineshop</h1>
@@ -69,10 +61,10 @@
                             </a>
                         </div>
                         <img v-lazy="image.src || image.thumb" class="liimg" style=" height: 15em;"
-                         @click="openGallery(index)">                                                 
+                         @click="openGallery2(index)">                                                 
                     </li>
                 </ul>
-              <button v-on:click="removeelements">...</button>
+             
      
                 
             </div>
@@ -140,13 +132,18 @@
             LightBox,
         },
         methods:{
-           removeelements: function removeelements(){
-            media_sm.splice(0,20);
+          removeelements(){
+           
         },
         openGallery(index) {
                 this.$refs.lightbox.showImage(index)
-            },},
+        },
+         openGallery2(index) {
+                this.$refs.lightbox.showImage(index+20)
+            },
+        },
             data () {
+                
     return {
     media,
     media_sm,
@@ -156,11 +153,7 @@
     
 
     window.onload = function () {
-        document.getElementById("contact").addEventListener("load", removeelements);
         
-        function removeelements(){
-            media.splice(0,20);
-        }
        
     }
    
