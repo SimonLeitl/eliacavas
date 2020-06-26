@@ -27,7 +27,7 @@
 
             <div class="row gallery">
                 <ul style="text-align: center;" class="ulist">                     
-                    <li v-for="(image, index) in media_am" :key="index"
+                    <li v-for="(image, index) in media.slice(0,20)" :key="index"
                      style="display: inline-block; padding:1%;" class="list" data-aos="fade-down">                       
                         <div class="overlay">
                             <a class="icon" title="User Profile">
@@ -38,28 +38,28 @@
                          @click="openGallery(index)" >                         
                     </li>
                 </ul>
-                <LightBox ref="lightbox" :media="media_am" :show-caption="true" :show-light-box="false" />
+                <LightBox ref="lightbox" :media="media" :show-caption="true" :show-light-box="false" />
             </div>
         </section>
-        <section class="Socialmedia_am" style="" >
+        <section class="Socialmedia" style="" >
             <!-- xs -->
             <div class="row justify-content-center ">
                 
                 <div class="col d-block d-sm-none" align="center">
                 <h1 class="pt-100 text-black " style="color: #282d8c" data-aos="fade-in" data-aos-duration="1000" 
-                data-aos-delay="0">Social-media_am und Onlineshop</h1>
+                data-aos-delay="0">Socialmedia und Onlineshop</h1>
                 </div>
             </div>
             <!-- all other -->
             <div class="row justify-content-center">
                 <div class="col d-none d-sm-block" align="center" >
                 <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-duration="1000" 
-                data-aos-delay="0">Social-media_am und Onlineshop</h1>
+                data-aos-delay="0">Socialmedia und Onlineshop</h1>
                 </div>
             </div>
             <hr>
 
-            <div class="row gallery">
+            <div class="row gallery justify-content-center" >
                  <ul style="text-align: center;" class="ulist">                     
                     <li v-for="(image, index) in media_sm" :key="index"
                      style="display: inline-block; padding:1%;" class="list" data-aos="fade-down">                       
@@ -69,10 +69,11 @@
                             </a>
                         </div>
                         <img v-lazy="image.src || image.thumb" class="liimg" style=" height: 15em;"
-                         @click="openGallery(index)" >                         
+                         @click="openGallery(index)">                                                 
                     </li>
                 </ul>
-                <LightBox ref="lightbox1" :media="media_sm" :show-caption="false" startAt="21" :show-light-box="false" />
+              <button v-on:click="removeelements">...</button>
+     
                 
             </div>
         </section> 
@@ -96,7 +97,7 @@
         </section>
         <!-- Kontaktformular-->
         <section class="section section-lg pt-lg-0 section-contact-us">
-            <div class="container">
+            <div class="container" id="contact">
                 <div class="row justify-content-center mt--300">
                     <div class="col-lg-8" data-aos="flip-down" >
                         <card gradient="secondary" shadow body-classes="p-lg-5">
@@ -121,8 +122,8 @@
 <script>
     import AOS from "aos";
     import "aos/dist/aos.css"; 
-     import media_am from './Amazonimg'
-    import media_sm from './Socialmediaimg'
+     import media from './media'
+   import media_sm from './Socialmediaimg'
      import LightBox from 'vue-image-lightbox'
     require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
     AOS.init({
@@ -132,25 +133,35 @@
     export default {
         AOS,
         name: "galerie",
-        media_am,
+        media,
         media_sm,
+   
         components: {
             LightBox,
         },
         methods:{
+           removeelements: function removeelements(){
+            media_sm.splice(0,20);
+        },
         openGallery(index) {
                 this.$refs.lightbox.showImage(index)
             },},
             data () {
     return {
-    media_am,
+    media,
     media_sm,
     }
   },
     };
+    
 
     window.onload = function () {
-
+        document.getElementById("contact").addEventListener("load", removeelements);
+        
+        function removeelements(){
+            media.splice(0,20);
+        }
+       
     }
    
 </script>
@@ -167,14 +178,15 @@
     .AmazonEbay {
         padding-right: 5%;
         padding-left: 5%;
-        padding-top: 10%;
+        
 
     }
 
-    .Socialmedia_am {
+    .Socialmedia {
         padding-right: 5%;
+        width: 100%;
         padding-left: 5%;
-        padding-top: 10%;
+        padding-top: 0%;
         padding-bottom: 10%;;
     }    
 
@@ -217,8 +229,8 @@
         color: #282d8c;
         font-size: 200%;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        right:37%;
+        top: 45%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
