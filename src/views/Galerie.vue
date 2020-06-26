@@ -13,15 +13,11 @@
        
 
       <section class="AmazonEbay" style="">
-               <div>
-                <ul>
-                    <li v-for="(image, index) in media" :key="index" style="display: inline-block;">
-                        <img v-lazy="image.src || image.thumb" style=" height: 20em;" @click="openGallery(index)">
-                    </li>
-                </ul>
-
-                <LightBox ref="lightbox" :media="media" :show-caption="true" :show-light-box="false" />
-            </div>           
+          <!-- <div class="row justify-content-center"> -->
+              
+                
+            <!-- </div>   -->
+                
                 
             <div class="row justify-content-center">
                 <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000">Amazon und Ebay</h1>
@@ -30,339 +26,54 @@
             <hr>
 
             <div class="row gallery">
-
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
+                <ul style="text-align: center;" class="ulist">                     
+                    <li v-for="(image, index) in media_am" :key="index"
+                     style="display: inline-block; padding:1%;" class="list" data-aos="fade-down">                       
                         <div class="overlay">
                             <a class="icon" title="User Profile">
                                 <i class="icon icon-sm ni ni-zoom-split-in"></i>
                             </a>
                         </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/1 Startfoto.jpg">
-
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a><img class="img"
-                            src="@/assets/Images/Galerie/4 Maße.jpg">
-                </div>
-                <div class="col gallery" style=""  data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div></a>
-                    <img class="img"
-                            src="@/assets/Images/Galerie/2Maße1.jpg">
-                </div>
-                <div class="col gallery" style=""  data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000"> 
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/2USPS.jpg">
-                   
-                </div>
-            </div>
-            <div class="row gallery" >
-                <div class="col gallery" style="width: 20%" data-aos="fade-down" data-aos-duration="1000" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/5Anwendung 1.jpg">                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="200"> 
-                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/gut.jpg"> 
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down"  data-aos-duration="1000" data-aos-delay="400" >
-                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/Foto1_Alkoholmeter_button_neu.jpg">                     
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down"  data-aos-duration="1000"  data-aos-delay="600" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/Anwendung 1.jpg">   
-                    
-                </div>
-            </div>
-            <div class="row gallery">
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/5Anwendung1.jpg">                      
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="200">
-                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/6 Anwendungsbild2.jpg"> 
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="400">
-                      <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/2Merkmale.jpg"> 
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="600">
-                     <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/Anwendung2.jpg"> 
-                    
-                </div>
-            </div>
-            <div class="row gallery">
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/5Montage.jpg">                     
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
-                                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/Anwendung1.jpg">     
-                  
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
-                                <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/7 Bewertungen.jpg">    
-                    
-                </div>
-
-            </div>
-            <div class="row gallery">
-
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" >
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon-sm" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/4 Lifestyle 80x80.jpg">   
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon-sm" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/6 Anwendung.jpg">   
-                   
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/a+.jpg">   
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
-                    <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon-sm" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/5 Vergleichsbild.jpg">   
-                   
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
-                       <a href="/img/1 Startfoto.43af1340.jpg" data-lightbox="mygallery">
-                        <div class="overlay">
-                            <a class="icon-sm" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/4 Lifestyle.jpg">   
-                    
-                </div>
+                        <img v-lazy="image.src || image.thumb" class="liimg" style=" height: 15em;"
+                         @click="openGallery(index)" >                         
+                    </li>
+                </ul>
+                <LightBox ref="lightbox" :media="media_am" :show-caption="true" :show-light-box="false" />
             </div>
         </section>
-        <section class="SocialMedia" style="" >
+        <section class="Socialmedia_am" style="" >
             <!-- xs -->
             <div class="row justify-content-center ">
+                
                 <div class="col d-block d-sm-none" align="center">
                 <h1 class="pt-100 text-black " style="color: #282d8c" data-aos="fade-in" data-aos-duration="1000" 
-                data-aos-delay="0">Social-Media und Onlineshop</h1>
+                data-aos-delay="0">Social-media_am und Onlineshop</h1>
                 </div>
             </div>
             <!-- all other -->
             <div class="row justify-content-center">
                 <div class="col d-none d-sm-block" align="center" >
                 <h1 class="pt-100 text-black" style="color: #282d8c" data-aos="fade-in" data-aos-duration="1000" 
-                data-aos-delay="0">Social-Media und Onlineshop</h1>
+                data-aos-delay="0">Social-media_am und Onlineshop</h1>
                 </div>
             </div>
             <hr>
 
             <div class="row gallery">
-
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" 
-                data-aos-delay="0">
-                    <a href="/img/1 Startfoto.43af1340.jpg">
+                 <ul style="text-align: center;" class="ulist">                     
+                    <li v-for="(image, index) in media_sm" :key="index"
+                     style="display: inline-block; padding:1%;" class="list" data-aos="fade-down">                       
                         <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
+                            <a class="icon" title="User Profile">
                                 <i class="icon icon-sm ni ni-zoom-split-in"></i>
                             </a>
                         </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/135_4.jpg">
-
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000"  
-                data-aos-delay="200">
-                <a href="/img/1 Startfoto.43af1340.jpg">
-                        <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/DSC00013-31.jpg">
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" 
-                data-aos-delay="400">
-                <a href="/img/1 Startfoto.43af1340.jpg">
-                        <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/Savour.jpg">
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" 
-                data-aos-delay="600">
-                <a href="/img/1 Startfoto.43af1340.jpg">
-                        <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/final22.jpg">
-                    
-                </div>
-            </div>
-            <div class="row gallery">
-
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000"  
-                data-aos-delay="0">
-                    <a href="/img/1 Startfoto.43af1340.jpg">
-                        <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/OchaOchaTee.jpg">
-                </div>
-
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" 
-                data-aos-delay="200">
-                <a href="/img/1 Startfoto.43af1340.jpg">
-                        <div class="overlay">
-                            <a href="#" class="icon-sm"  title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/Slider für Anwendungs-Montage (nacher(2).jpg">
-                    
-                </div>
-                <div class="col gallery" style="" data-aos="fade-down" data-aos-duration="1000" 
-                data-aos-delay="400">
-                  <a href="/img/1 Startfoto.43af1340.jpg">
-                        <div class="overlay">
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="icon icon-sm ni ni-zoom-split-in"></i>
-                            </a>
-                        </div>
-                    </a>
-                    <img class="img" id="img1" src="@/assets/Images/Galerie/final2.jpg">
-                 
-                </div>
+                        <img v-lazy="image.src || image.thumb" class="liimg" style=" height: 15em;"
+                         @click="openGallery(index)" >                         
+                    </li>
+                </ul>
+                <!-- <LightBox ref="lightbox1" :media="media_sm" :show-caption="false" startAt="" :show-light-box="false" /> -->
+                
             </div>
         </section> 
         <!-- Kontakt Hintegrund Shape-->
@@ -410,7 +121,8 @@
 <script>
     import AOS from "aos";
     import "aos/dist/aos.css"; 
-     import media from './dummy'
+     import media_am from './Amazonimg'
+    import media_sm from './Socialmediaimg'
      import LightBox from 'vue-image-lightbox'
     require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
     AOS.init({
@@ -420,7 +132,8 @@
     export default {
         AOS,
         name: "galerie",
-        media,
+        media_am,
+        media_sm,
         components: {
             LightBox,
         },
@@ -430,8 +143,8 @@
             },},
             data () {
     return {
-      media,
-   
+    media_am,
+    media_sm,
     }
   },
     };
@@ -458,36 +171,30 @@
 
     }
 
-    .SocialMedia {
+    .Socialmedia_am {
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 10%;
         padding-bottom: 10%;;
-    }
-
-    
+    }    
 
     .img {
         display: block;
-        width: 100%;
+        padding: 0.5%;        
         height: auto;
         transition: 0.8s;
+    }   
+
+    ul li{
+        position: relative;
     }
 
-    .img:hover {
-        -moz-box-shadow: 0 0 20px;
-        -webkit-box-shadow: 0 0 20px rgb(88, 88, 88);
-        box-shadow: 0 0 20px rgb(88, 88, 88);
+    ul li img{
+        display: block;
+        opacity: 1;
     }
 
-    .col.gallery {
-        /* transition: 1s; */
-        padding: 0.5%;
-    }
-
-    /* .col.gallery:hover {
-        transform: scale(1.04);
-    } */
+    ul li:hover img{opacity: 0.1;}  
 
     /* The overlay effect (full height and width) - lays on top of the container and over the image */
     .overlay {
@@ -498,16 +205,13 @@
         right: 0;
         height: 100%;
         width: auto;
-        opacity: 0;
+        opacity: 1;
         transition: .3s ease;
         background-color: white;
+        z-index: -1;
     }
 
-    /* When you mouse over the container, fade in the overlay icon*/
-    .col.gallery:hover .overlay {
-        opacity: 0.9;
-    }
-
+   
     /* The icon inside the overlay is positioned in the middle vertically and horizontally */
     .icon {
         color: #282d8c;
