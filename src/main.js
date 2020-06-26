@@ -25,6 +25,8 @@ let Bootstrap = require('bootstrap')
 import Argon from "./plugins/argon-kit";
 import './registerServiceWorker'
 import { VueperSlides, VueperSlide } from 'vueperslides';
+import VueLazyLoad from 'vue-lazyload';
+Vue.use(VueLazyLoad);
 
 
 
