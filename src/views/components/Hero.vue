@@ -8,6 +8,22 @@
             <source src="@/assets/Images/eliacameraframe.mp4" type="video/mp4">
         </video> -->
 
+
+       <!-- <div class="video-background">
+           <div class="video-foreground">
+        <iframe width="560" height="100" src="https://www.youtube.com/embed/lRTtMcx6rSM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          </div> -->
+
+        <!-- <video src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="mp4/video" autoplay="autoplay">
+        </video>     -->
+
+        <video autoplay preload="auto" id="myVideo" muted loop>
+            <source src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="video/mp4">
+        </video>    
+        
+
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0">
                 <div class="row justify-content-center align-items-center">
@@ -66,9 +82,11 @@
     }
 </script>
 <style>
+
     .none {
         display: none;
     }
+
 
     .section-hero{
         background-color: black;

@@ -1,8 +1,9 @@
 <template>
 
         <section class="section section-lg overflow-hidden my-0">
+            <div class="container hidden-sm-down">
             <div class="row row-grid justify-content-center">
-                <div class="col-lg-8 text-center">
+                <div class="col-lg-10 text-center">
                     <h2 class="display-3">Ablauf
                       <!--  <span class="text-success">Ablauf</span>-->
                     </h2>
@@ -22,7 +23,7 @@
 
                             <tab-pane key="tab2">
                                 <template slot="title">
-                                  Foto-Breefing
+                                  Foto-Briefing
                                 </template>
 
                                 <p class="description" style="text-align: left;">Es wird detailliert aufgeschrieben, welche Art von Fotos erstellt wird und was genau auf den Fotos zu sehen sein wird. Weiterhin halten wir fest, welche Fotos der Konkurrenz wir überbieten müssen, damit du dich klar von deinen Konkurrenten abheben kannst. Das Fotobriefing ist dann auch die Checkliste für das Fotoshooting.
@@ -74,6 +75,7 @@
 
                     </tabs>
                 </div>
+            </div>
             </div>
 
         </section>

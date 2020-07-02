@@ -10,7 +10,7 @@
 
                 <!-- BOOTSTRAP -->
 
-                <div class="accordion" id="accordionExample">
+                <div class="accordion hidden-sm-down" id="accordionExample">
                     <div data-aos="fade-up"
                          data-aos-anchor-placement="bottom-bottom"
                         data-aos-delay="100">
@@ -90,6 +90,7 @@
                     </div>
 
                 </div>
+
             </div>
 
         </div>

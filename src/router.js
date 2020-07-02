@@ -9,6 +9,8 @@ import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 import Leistungen from "./views/Leistungen.vue";
 import Galerie from "./views/Galerie.vue";
+import UeberUns from "./views/UeberUns.vue";
+
 
 Vue.use(Router);
 
@@ -61,6 +63,7 @@ export default new Router({
       }
     },
     {
+
       path: "/leistungen",
       name: "leistungen",
       components: {
@@ -75,6 +78,12 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Galerie,
+      path: "/ueberuns",
+      name: "ueberuns",
+      components: {
+        header: AppHeader,
+        default: UeberUns,
+
         footer: AppFooter
       }
     }

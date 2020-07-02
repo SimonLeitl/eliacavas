@@ -1,6 +1,15 @@
 
-<template> 
+<template>
 
+<section>
+    <div class="container">
+        <div class="row justify-content-center" @mouseover="showIconsAnimation = true">
+            <div class="col-lg-8 text-center">
+                <h1 class="mb-0" style="">Portfolio</h1>
+                <p>Lass dich inspirieren von meinen bisher angefertigten Produktfotos. Das reicht dir noch nicht? Hier in der Galerie findest du mehr Beispiele.</p>
+            </div>
+        </div>
+    </div>
 <swiper class="swiper" :options="swiperOption">    
     <swiper-slide class="slide-1"></swiper-slide>
     <swiper-slide class="slide-2"></swiper-slide>
@@ -10,6 +19,15 @@
     <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
     <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
   </swiper>
+
+    <container>
+        <div class="row justify-content-center" @mouseover="showIconsAnimation = true" style="padding-top: 30px;">
+            <div class="col-lg-8 text-center">
+        <base-button type="primary">Mehr</base-button>
+            </div>
+        </div>
+    </container>
+</section>
 </template>
 
 <script>

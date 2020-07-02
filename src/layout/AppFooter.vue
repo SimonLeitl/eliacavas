@@ -21,17 +21,17 @@
         <div class="container">
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
-                    <h3 class="text-primary font-weight-light mb-2">Sie haben noch Fragen?</h3>
-                    <h4 class="mb-0 font-weight-light">Finden Sie uns auch auf diesen Platformen</h4>
+                    <h3 class="text-primary font-weight-light mb-2">Du hast noch Fragen?</h3>
+                    <h4 class="mb-0 font-weight-light">Finde uns auch auf diesen Platformen</h4>
                 </div>
                 <div class="col-lg-6 text-lg-right btn-wrapper">
 
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/Produktfotos-Prime-112692710438040"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
                     </a>
-                    <a target="_blank" rel="noopener" href="https://github.com/creativetimofficial"
+                    <a target="_blank" rel="noopener" href="https://www.instagram.com/produktfotosprime/"
                        class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Star on Github">
                         <i class="fa fa-instagram"></i>
