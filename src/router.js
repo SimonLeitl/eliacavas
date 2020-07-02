@@ -12,10 +12,10 @@ import Galerie from "./views/Galerie.vue";
 import UeberUns from "./views/UeberUns.vue";
 
 
-Vue.use(Router);
 
-export default new Router({
-  linkExactActiveClass: "active",
+
+const router = new  Router({
+  linkExactActiveClass: "active", 
   routes: [
     {
       path: "/",
@@ -63,7 +63,6 @@ export default new Router({
       }
     },
     {
-
       path: "/leistungen",
       name: "leistungen",
       components: {
@@ -78,15 +77,19 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Galerie,
+        footer: AppFooter
+      }
+    },
+      {
       path: "/ueberuns",
       name: "ueberuns",
       components: {
         header: AppHeader,
         default: UeberUns,
-
         footer: AppFooter
       }
     }
+  
   ],
   scrollBehavior: to => {
     if (to.hash) {
@@ -96,3 +99,7 @@ export default new Router({
     }
   }
 });
+
+export default router;
+
+Vue.use(Router);
