@@ -19,9 +19,9 @@
         <!-- <video src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="mp4/video" autoplay="autoplay">
         </video>     -->
 
-        <video autoplay preload="auto" id="myVideo" muted loop>
+        <!-- <video autoplay preload="auto" id="myVideo" muted loop>
             <source src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="video/mp4">
-        </video>    
+        </video>     -->
         
 
         <div class="container shape-container d-flex align-items-center">
