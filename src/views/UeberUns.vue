@@ -2,17 +2,10 @@
     <div class="profile-page">
         <section class="section-profile-cover my-0 ueberuns" id="ueberuns">
             <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
             </div>
         </section>
-        <section class="section section-skew" >
-            <div class="container">
+        <section class="section section-skew" id="eliaSection">
+            <div class="container" id="cardElia">
 
                 <card shadow class="card-profile mt--300" no-body>
                     <div class="px-4">
@@ -84,7 +77,7 @@
         <section class="section section-lg pt-lg-0 section-contact-us">
             <div class="container">
                 <div class="row justify-content-center mt--300">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" data-aos="flip-down">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Du hast noch Fragen?</h4>
                             <p class="mt-0">Ich beantworte sie dir gerne!</p>
@@ -114,8 +107,22 @@
 </template>
 
 <script>
+    import AOS from "aos";
+
     export default {
-        name: "UeberUns"
+        AOS,
+        data() {
+            return {
+                showIconsAnimation: false,
+
+            };
+        },
+        name: "UeberUns",
+        methods: {
+            goBack() {
+                window.history.length > 1 ? this.$router.go(-1) : this.$router.push('/')
+            }
+        }
     }
 </script>
 
@@ -123,6 +130,11 @@
 #ueberuns{
     background-image: url(components/shape7.jpg);
     background-repeat: no-repeat;
+    background-size: 2000px;
+    height:760px;
+}
+#cardElia{
+margin-top:-500px;
 }
 
 </style>

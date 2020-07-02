@@ -1,7 +1,7 @@
 const media = [
     {
-      thumb: '/img/1 Startfoto.43af1340.jpg',  
-      src:'/img/1 Startfoto.43af1340.jpg',
+      thumb: '/img/shape6.png',
+      src: '@/img/shape6.jpg',
     },
     {
       thumb: '/img/4 Maße.4533095e.jpg',

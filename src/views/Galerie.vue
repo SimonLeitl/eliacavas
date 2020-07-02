@@ -162,10 +162,10 @@
 <style scoped>
 
     .galerie {
-        background-image: url(Shape7_1.png);
+        background-image: url(components/shape6.jpg);
         background-repeat: no-repeat;
-        background-size: auto;
-        padding-bottom: 16%;
+        background-size: 2000px;
+        padding-bottom: 410px;
     }
 
     .AmazonEbay {

@@ -80,6 +80,7 @@
             vid.play();
         }
     }
+
 </script>
 <style>
 

@@ -399,20 +399,17 @@
                 
             };
         },
-        methods: {
-            onScroll(evt) {
-                console.log(evt);
-            },
-            
-        },
+
         name: "leistungen",
         components: {
             BCarousel,
             BCarouselSlide
         },
+
         
 
     };
+
 </script>
 
 <style scoped>
@@ -447,9 +444,9 @@
     }
 
     .leistung {
-        background-image: url(shape6_1.png);
+        background-image: url(components/shape6.jpg);
         background-repeat: no-repeat;
-        background-size: auto 100%;
+        background-size: 2000px;
         padding-bottom: 15%;
     }
 

@@ -16,6 +16,7 @@ Vue.use(Router);
 
 export default new Router({
   linkExactActiveClass: "active",
+
   routes: [
     {
       path: "/",
@@ -78,6 +79,9 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Galerie,
+      }
+    },
+    {
       path: "/ueberuns",
       name: "ueberuns",
       components: {

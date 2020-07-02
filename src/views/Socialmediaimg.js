@@ -7,12 +7,12 @@ const media = [
     caption: '<h4>Elephant</h4>',
   },
   {
-    thumb: '/img/DSC00013-31.a263916c.jpg',
-    src: '/img/DSC00013-31.a263916c.jpg',     
+    thumb: '/img/DSC00013-31.jpg',
+    src: "/components/DSC00013-31.jpg" ,
   },
   {
     thumb: '/img/Savour.def6a051.jpg',
-    src: '/img/Savour.def6a051.jpg',
+    src: "/img/Savour.def6a051.jpg",
     
   },
   {

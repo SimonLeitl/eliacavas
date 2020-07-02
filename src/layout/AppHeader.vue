@@ -16,17 +16,21 @@
             </div>
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
+                   <!-- <router-link to="/" class="nav-link nav-link-icon">Produktfotos</router-link>-->
+                    <a class="nav-link nav-link-icon" href="https://ecavas.uber.space/">
                         Produktfotos
                     </a>
                 </li>
                 <li class="nav-item">
+                   <!-- <a class="nav-link nav-link-icon" href="https://ecavas.uber.space/#/leistungen">
+                        Leistungen
+                    </a>-->
                     <router-link to="/leistungen" class="nav-link nav-link-icon">Leistungen</router-link>
                 </li>
                 <li class="nav-item">
 
-                    <router-link to="/galerie" class="nav-link nav-link-icon">Galerie</router-link>                    
 
+                    <router-link to="/galerie" class="nav-link nav-link-icon">Galerie</router-link>
                 </li>
                 <li class="nav-item">
                   <!--  <a class="nav-link nav-link-icon" href="#">
@@ -34,12 +38,14 @@
                         Über uns
                     </a>-->
                     <router-link to="/ueberuns" class="nav-link nav-link-icon">Über uns</router-link>
+                    <!--<router-link to="/ueberuns" class="nav-link nav-link-icon">Über uns</router-link>-->
                 </li>
-                <li class="nav-item">
+            <!--    <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#">
                         Kontakt
                     </a>
-                </li>
+                </li>-->
+
             </ul>
 
 
@@ -98,7 +104,8 @@
             BaseNav,
             CloseButton,
             BaseDropdown
-        }
+        },
+
     };
 </script>
 <style>
