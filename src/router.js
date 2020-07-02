@@ -7,7 +7,10 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import Leistungen from "./views/Leistungen.vue";
+import Galerie from "./views/Galerie.vue";
 import UeberUns from "./views/UeberUns.vue";
+
 
 Vue.use(Router);
 
@@ -60,11 +63,27 @@ export default new Router({
       }
     },
     {
+
+      path: "/leistungen",
+      name: "leistungen",
+      components: {
+        header: AppHeader,
+        default: Leistungen,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/galerie",
+      name: "galerie",
+      components: {
+        header: AppHeader,
+        default: Galerie,
       path: "/ueberuns",
       name: "ueberuns",
       components: {
         header: AppHeader,
         default: UeberUns,
+
         footer: AppFooter
       }
     }

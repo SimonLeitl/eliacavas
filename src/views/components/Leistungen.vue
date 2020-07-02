@@ -161,6 +161,7 @@ export default {
 } */
 
 .section.leistungen{
+
     padding-top:15px;
     background-image: url(shape6.jpg);
     background-repeat: no-repeat;    
