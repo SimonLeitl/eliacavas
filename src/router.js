@@ -63,8 +63,8 @@ const router = new  Router({
       }
     },
     {
-      path: "/leistungen",
-      name: "leistungen",
+      path: '/leistungen',
+      name: 'leistungen',
       components: {
         header: AppHeader,
         default: Leistungen,

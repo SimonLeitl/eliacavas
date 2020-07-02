@@ -114,9 +114,9 @@
 <script>
     import AOS from "aos";
     import "aos/dist/aos.css"; 
-     import media from './media'
-   import media_sm from './Socialmediaimg'
-     import LightBox from 'vue-image-lightbox'
+    import media from './media'
+    import media_sm from './Socialmediaimg'
+    import LightBox from 'vue-image-lightbox'
     require('vue-image-lightbox/dist/vue-image-lightbox.min.css')
     AOS.init({
         duration:1000,

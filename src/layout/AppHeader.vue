@@ -14,26 +14,32 @@
                     <close-button @click="closeMenu"></close-button>
                 </div>
             </div>
+
+
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#">
+
+                    <a class="nav-link nav-link-icon" href="components">Produktfotos</a>
+                    <!-- <a class="nav-link nav-link-icon" href="#" active-class="active"> 
                         Produktfotos
-                    </a>
+                    </a> -->
                 </li>
                 <li class="nav-item">
-                    <router-link to="/leistungen" class="nav-link nav-link-icon">Leistungen</router-link>
+                    <nav>
+                        <router-link class="nav-link nav-link-icon" to="leistungen">Leistungen</router-link>
+                    </nav>
+                    <!-- <a class="nav-link nav-link-icon" href="/leistungen">Leistungen</a> -->
                 </li>
                 <li class="nav-item">
+                    <router-link to="galerie" class="nav-link nav-link-icon">Galerie</router-link>
 
-                    <router-link to="/galerie" class="nav-link nav-link-icon">Galerie</router-link>                    
-
                 </li>
                 <li class="nav-item">
-                  <!--  <a class="nav-link nav-link-icon" href="#">
+                    <!--  <a class="nav-link nav-link-icon" href="#">
 
                         Über uns
                     </a>-->
-                    <router-link to="/ueberuns" class="nav-link nav-link-icon">Über uns</router-link>
+                    <router-link to="ueberuns" class="nav-link nav-link-icon">Über uns</router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#">
@@ -41,7 +47,7 @@
                     </a>
                 </li>
             </ul>
-
+            <router-view></router-view>
 
             <!-- <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                  <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">

@@ -35,6 +35,18 @@
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 
+var x=3;
+
+   if (screen.width<800) {
+       x = 1;
+} else if (screen.width<1200){
+     x = 2;
+}
+else {
+     x = 3;
+}
+       
+    
 export default {
  
   components: {
@@ -45,11 +57,13 @@ export default {
     swiper: directive
   },
   
+    
 
 data() {
       return {
         swiperOption: {
-          slidesPerView: 3,
+          
+          slidesPerView: x,
           spaceBetween: 10,
           slidesPerGroup: 1,
           
