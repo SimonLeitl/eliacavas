@@ -4,18 +4,19 @@
 
 
     <container class="hidden-sm-down">
+
         <div class="row row-grid">
-            <div class="col-xs-">
-                Test
-            </div>
+
            <div class="col col-sm-5 hidden-sm-down" id="kontakt-links">
                 <div class="row row-grid justify-content-center">
                     <h3 class="text-secondary">Jetzt Strategiegespräch vereinbaren</h3>
+                    <p style="color:white;text-align: center"> einfach einen kostenlosen Termin ausmachen</p>
+
                 </div>
-               <div class='input-group date' id='datetimepicker1'>
-                   <input type='text' class="form-control" />
-                   <input data-provide="datepicker">
+               <div class="row row-grid justify-content-center">
+                   <base-button class="bg-white text-primary">Termin vereinbaren</base-button>
                </div>
+
             </div>
 
           <div class="col col-sm-7 bg-secondary">
@@ -77,10 +78,15 @@
 <script>
 
     export default {
-        name: "Kontakt",
-        value: ''
+        data() {
+            return {
+                dates: {
+                    simple: "2019-07-1"
+                }
+            };
+        }
+    };
 
-    }
 
 </script>
 

@@ -1,7 +1,7 @@
 <template>
     <div class="profile-page">
-        <section class="section-profile-cover section-shaped my-0" style="background-image: url(components/shape6.png)">
-            <div class="shape shape-style-1 shape-primary shape-skew alpha-4" >
+        <section class="section-profile-cover my-0 ueberuns" id="ueberuns">
+            <div>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -11,7 +11,7 @@
                 <span></span>
             </div>
         </section>
-        <section class="section section-skew">
+        <section class="section section-skew" >
             <div class="container">
 
                 <card shadow class="card-profile mt--300" no-body>
@@ -120,5 +120,9 @@
 </script>
 
 <style scoped>
+#ueberuns{
+    background-image: url(components/shape7.jpg);
+    background-repeat: no-repeat;
+}
 
 </style>

@@ -51,11 +51,7 @@ export default {
       showIconsAnimation: false
     };
   },
-  methods: {
-    onScroll(evt) {
-      console.log(evt);
-    }
-  }
+
 };
 </script>
 <style>

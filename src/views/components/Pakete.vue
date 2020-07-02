@@ -67,7 +67,7 @@
                             <div class="card-header">
                                 <h5 class="card-title" style="font-weight:bold;">Social Media Paket</h5>
                             </div>
-                            <div class="card-body " id="socialMedia">
+                            <div class="card-body text-center" id="socialMedia">
 
                                 <p class="card-text">Du benötigst regelmäßig Content zum vermarkten
                                     deiner Produkte? Ich helfe dir mit Social- Media optimiertem
@@ -76,7 +76,7 @@
                                     <br><br>Mögliche Konstellationen:</p>
 
 
-                                <ul class="list-group list-group-flush" style="color:black; width:217px; margin-left:10px;">
+                                <ul class="text-center " style="color:black;">
                                     <li class="list-group-item">30 Fotos/Monat</li>
                                     <li class="list-group-item">15 Fotos/Monat</li>
                                     <li class="list-group-item">10 Fotos/Monat</li>

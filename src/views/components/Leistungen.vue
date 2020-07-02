@@ -126,11 +126,7 @@ export default {
       showIconsAnimation: false
     };
   },
-  methods: {
-    onScroll(evt) {
-      console.log(evt);
-    }
-  }
+
 };
 </script>
 <style>
@@ -166,7 +162,7 @@ export default {
 
 .section.leistungen{
     padding-top:15px;
-    background-image: url(shape6.png);
+    background-image: url(shape6.jpg);
     background-repeat: no-repeat;    
     background-size: auto;  
 

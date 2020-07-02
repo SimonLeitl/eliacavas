@@ -24,7 +24,7 @@
         <!-- <video src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="mp4/video" autoplay="autoplay">
         </video>     -->
 
-        <video autoplay id="myVideo" muted loop>
+        <video autoplay preload="auto" id="myVideo" muted loop>
             <source src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="video/mp4">
         </video>    
         
