@@ -1,7 +1,6 @@
 <template>
    <section class="section section-lg">
-
-        <div class="row row-grid justify-content-center">
+  <div class="row row-grid justify-content-center">
             <div class="col-lg-8 text-center">
                 <h2 class="display-3">FAQ
                     <span class="text-success">Häufig gestellte Fragen</span>
@@ -93,21 +92,14 @@
 
             </div>
 
-        </div>
+        </div>  
 
     </section>
 </template>
 
 <script>
 
-    export default {
-        data(){
-
-        },
-        name: "faq",
-
-    }
-
+    
 </script>
 
 <style scoped>

@@ -3,19 +3,17 @@ import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
-import Landing from "./views/Landing.vue";
-import Login from "./views/Login.vue";
-import Register from "./views/Register.vue";
-import Profile from "./views/Profile.vue";
 import Leistungen from "./views/Leistungen.vue";
 import Galerie from "./views/Galerie.vue";
 import UeberUns from "./views/UeberUns.vue";
 
 
 
+Vue.use(Router);
 
 const router = new  Router({
   linkExactActiveClass: "active", 
+  
   routes: [
     {
       path: "/",
@@ -26,42 +24,7 @@ const router = new  Router({
         footer: AppFooter
       }
     },
-    {
-      path: "/landing",
-      name: "landing",
-      components: {
-        header: AppHeader,
-        default: Landing,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/login",
-      name: "login",
-      components: {
-        header: AppHeader,
-        default: Login,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/register",
-      name: "register",
-      components: {
-        header: AppHeader,
-        default: Register,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/profile",
-      name: "profile",
-      components: {
-        header: AppHeader,
-        default: Profile,
-        footer: AppFooter
-      }
-    },
+   
     {
       path: '/leistungen',
       name: 'leistungen',
@@ -88,18 +51,12 @@ const router = new  Router({
         default: UeberUns,
         footer: AppFooter
       }
-    }
+    },
   
   ],
-  scrollBehavior: to => {
-    if (to.hash) {
-      return { selector: to.hash };
-    } else {
-      return { x: 0, y: 0 };
-    }
-  }
+ 
 });
 
 export default router;
 
-Vue.use(Router);
+

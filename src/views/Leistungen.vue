@@ -393,6 +393,7 @@
 
     export default {
         AOS,
+        name: 'leistungen',
         data() {
             return {
                 showIconsAnimation: false,
