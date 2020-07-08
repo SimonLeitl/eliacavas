@@ -9,8 +9,8 @@
 
            <div class="col col-sm-5 hidden-sm-down" id="kontakt-links">
                 <div class="row row-grid justify-content-center">
-                    <h3 class="text-secondary">Jetzt Strategiegespräch vereinbaren</h3>
-                    <p style="color:white;text-align: center"> einfach einen kostenlosen Termin ausmachen</p>
+                    <h3 class="text-secondary" style="padding-top:20px">Jetzt Strategiegespräch vereinbaren</h3>
+
 
                 </div>
                <div class="row row-grid justify-content-center">
@@ -19,11 +19,11 @@
 
             </div>
 
-          <div class="col col-sm-7 bg-secondary">
+          <div class="col col-sm-7 bg-secondary text-center">
               <div class="mb-3">
-                <h3>Kontakt</h3>
+                <h3 style="padding-top:20px">Kontakt</h3>
               </div>
-              <div class="row">
+              <div class="row row-grid justify-content-center">
                   <div class="col-lg-4 col-sm-6">
                       <base-input alternative
                                   placeholder="Name">
@@ -46,11 +46,11 @@
 
 
               </div>
-              <div class="row">
+              <div class="row row-grid justify-content-center" style="margin-top:-1px">
                   <div class="col-lg-8" rows="5">
                       <base-input>
                           <textarea class="form-control form-control-alternative" name="name" rows="6"
-                                    cols="80" placeholder="Type a message..."></textarea>
+                                    cols="80" placeholder="Deine Nachricht"></textarea>
                       </base-input>
                   </div>
 

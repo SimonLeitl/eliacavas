@@ -3,7 +3,7 @@
         
         <div class="row text justify-content-center" @mouseover="showIconsAnimation = true">
             <div class="col-lg-4 text-center">
-                <h1 class="mb-0" style="color:white;padding-top:25px;">Pakete</h1>
+                <h1 class="mb-0" style="padding-top:25px;">Pakete</h1>
             </div>
         </div>
 

@@ -16,10 +16,10 @@
             </div>
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                   <!-- <router-link to="/" class="nav-link nav-link-icon">Produktfotos</router-link>-->
-                    <a class="nav-link nav-link-icon" href="https://ecavas.uber.space/">
+                  <router-link to="/" class="nav-link nav-link-icon">Produktfotos</router-link>
+                  <!--  <a class="nav-link nav-link-icon" href="https://ecavas.uber.space/">
                         Produktfotos
-                    </a>
+                    </a>-->
                 </li>
                 <li class="nav-item">
                    <!-- <a class="nav-link nav-link-icon" href="https://ecavas.uber.space/#/leistungen">
