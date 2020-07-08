@@ -4,6 +4,7 @@
             <div class="container" @mouseleave="showIconsAnimation = false">
                 <div class="row justify-content-center" @mouseover="showIconsAnimation = true">
                     <div class="col-lg-8 text-center">
+                        
                         <h1 class="mb-0" style="color: white;">Hiermit kann ich dir weiterhelfen</h1>
                     </div>
 
