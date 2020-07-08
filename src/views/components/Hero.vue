@@ -5,7 +5,7 @@
        
         <video autoplay muted autobuffer preload class="video-container__video" id="vid">
             
-            <source src="@/assets/Images/eliacameraframe.mp4" type="video/mp4">
+            <source src="@/assets/Images/cameraframe_rendered.mp4" type="video/mp4">
         </video>
 
         <div class="container shape-container d-flex align-items-center">
