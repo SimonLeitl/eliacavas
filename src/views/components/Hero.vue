@@ -3,32 +3,9 @@
     <section class="section-hero section-shaped my-0">
        
        
-        <!-- <video autoplay muted autobuffer preload class="video-container__video" id="vid">
-            
-            <source src="@/assets/Images/eliacameraframe.mp4" type="video/mp4">
-        </video> -->
-
-<!--         
-       <div id="player" class="video-background">
-           <div class="video-foreground">
-               
-        <iframe id="frame"  src="https://www.youtube.com/embed/-OBM1VFRo9w?autoplay=1&controls=0&modestbranding=0&showinfo=0&hd=1&rel=0&loop=1&playlist=-OBM1VFRo9w" 
-         frameborder="0" allow="accelerometer; autoplay;" allowfullscreen></iframe>
-          </div>
-          </div>
-          -->
-
-          
-       
-
-        <!-- <video src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="mp4/video" autoplay="autoplay">
-        </video>     -->
-
-        <video autoplay muted autobuffer preload class="video-container__video" id="vid">
-            
+        <video autoplay muted autobuffer preload class="video-container__video" id="vid">            
             <source src="@/assets/Images/cameraframe_rendered.mp4" type="video/mp4">
-        </video>  
-        
+        </video>
 
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0">
@@ -46,7 +23,7 @@
                                 icon="ni ni-camera-compact">
                                 jetzt Strategiegespräch vereinbaren
                             </base-button>
-                            <base-button tag="a" href="#" class="mb-3 mb-sm-0" type="white" icon="ni ni-circle-08">
+                            <base-button tag="a" href="#" class="mb-3 mb-sm-0"  type="white" icon="ni ni-circle-08">
                                 Mehr Erfahren
                             </base-button>
 
@@ -64,8 +41,7 @@
 </template>
 <script>
     window.onload = function () {
-         var vid = document.getElementById('vid');
-        var but = document.getElementById('mutebtn');
+        var vid = document.getElementById('vid');        
         document.getElementById("mutebtn").addEventListener("click", mute);
         document.getElementById("repeatbtn").addEventListener("click", repeat);
 
@@ -88,47 +64,11 @@
     }
 </script>
 <style>
-/* @media (max-width: 760px) {                  
-   .video-background
-   {
-     display: none;
-   }
-   
-}
-
-    * { box-sizing: border-box; }
-.video-background {
-  background: #000;
-  
-  top: 0; right: 0; bottom: 0; left: 0;
-  
-}
-@media (min-width: 760px) { 
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  float: right;
-  top: -7%;
-  right: -10%;
-  margin-right: 0;
-  
-  width: 120%;
-  height: 120%;
-  pointer-events: none;
-  overflow: hidden; 
-  min-width: 2000px;
-  min-height: 1080px;
-}} */
-
-
     .none {
         display: none;
     }
 
 
-    /* .section-hero{
-        background-color: black;
-    } */
     .container.shape-container {
         position: absolute;
         bottom: 45%;
