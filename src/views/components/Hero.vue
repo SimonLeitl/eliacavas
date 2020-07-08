@@ -3,8 +3,7 @@
     <section class="section-hero section-shaped my-0">
        
        
-        <video autoplay muted autobuffer preload class="video-container__video" id="vid">
-            
+        <video autoplay muted autobuffer preload class="video-container__video" id="vid">            
             <source src="@/assets/Images/cameraframe_rendered.mp4" type="video/mp4">
         </video>
 
