@@ -8,15 +8,15 @@
             <source src="@/assets/Images/eliacameraframe.mp4" type="video/mp4">
         </video> -->
 
-        
-       <div class="video-background">
+<!--         
+       <div id="player" class="video-background">
            <div class="video-foreground">
                
-        <iframe id="player"  src="https://www.youtube.com/embed/-OBM1VFRo9w?autoplay=1&controls=0&modestbranding=0&showinfo=0&hd=1&rel=0&loop=1&playlist=-OBM1VFRo9w" 
+        <iframe id="frame"  src="https://www.youtube.com/embed/-OBM1VFRo9w?autoplay=1&controls=0&modestbranding=0&showinfo=0&hd=1&rel=0&loop=1&playlist=-OBM1VFRo9w" 
          frameborder="0" allow="accelerometer; autoplay;" allowfullscreen></iframe>
           </div>
           </div>
-         
+          -->
 
           
        
@@ -24,9 +24,9 @@
         <!-- <video src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="mp4/video" autoplay="autoplay">
         </video>     -->
 
-        <!-- <video autoplay preload="auto" id="myVideo" muted loop>
-            <source src="@/assets/Images/Produktfotosprime Banner Video.mp4" type="video/mp4">
-        </video>     -->
+        <video autoplay preload="auto" id="myVideo" muted loop>
+            <source src="@/assets/Images/cameraframe_rendered.mp4" type="video/mp4">
+        </video>    
         
 
         <div class="container shape-container d-flex align-items-center">
@@ -56,17 +56,21 @@
             </div>
         </div>
         <div class="container shape-container" style="posistion: absolute;  right: -25%; bottom: 0; opacity:0.15;">
-            <!-- <img id="mutebtn" src="@/assets/Images/mute_ic.png" style="width: 5%; height: auto; float: right;" /> -->
-            <!-- <img id="repeatbtn" src="@/assets/Images/repeat_ic.png" style="width: 5%; height: auto; float: right;" /> -->
+            <img id="mutebtn" src="@/assets/Images/mute_ic.png" style="width: 5%; height: auto; float: right;" />
+            <img id="repeatbtn" src="@/assets/Images/repeat_ic.png" style="width: 5%; height: auto; float: right;" />
         </div>
     </section>
 </template>
 <script>
     window.onload = function () {
-        var vid = document.getElementById('vid');
+        var vid = document.getElementById('myvideo');
+
         var but = document.getElementById('mutebtn');
+
         document.getElementById("mutebtn").addEventListener("click", mute);
         document.getElementById("repeatbtn").addEventListener("click", repeat);
+
+        
 
         function mute() {
             if (vid.muted) {
@@ -92,6 +96,7 @@
    {
      display: none;
    }
+   
 }
 
     * { box-sizing: border-box; }
