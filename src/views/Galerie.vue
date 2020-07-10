@@ -5,6 +5,7 @@
             <!-- Header Text -->
             <div class="container pt-lg-md">
                 <div class="row justify-content-center">
+                    
                     <h1 class="pt-100 text-white" style="padding-top: 15%;" data-aos="fade-in" data-aos-duration="1000">
                         Galerie</h1>
                 </div>
