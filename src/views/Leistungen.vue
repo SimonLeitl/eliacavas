@@ -69,8 +69,8 @@
                         Kundens , dadurch dass
                         sich dein Startbild von der Masse der anderen
                         Produktfotos abhebt. Ich sorge dafür, dass sich dein
-                        Produkt hervorhebt auch unter den Richtlinien von
-                        Amazon und co.
+                        Produkt auch unter den Richtlinien von
+                        Amazon und co hervorhebt.
                     </p>
                 </div>
             </div>

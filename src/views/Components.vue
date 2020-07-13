@@ -1,14 +1,14 @@
 <template>
   <div>
     <hero></hero>
-    <!-- <leistungen></leistungen>
+    <leistungen></leistungen>
     <portfolio></portfolio>
     <testimonials></testimonials>
     <ablauf></ablauf>
     <carousel></carousel>
     <pakete></pakete>
     <faq></faq>
-    <Kontakt></Kontakt> -->
+    <Kontakt></Kontakt>
   </div>
 </template>
 

@@ -23,7 +23,7 @@
     <container>
         <div class="row justify-content-center" @mouseover="showIconsAnimation = true" style="padding-top: 30px;">
             <div class="col-lg-8 text-center">
-        <base-button type="primary">Mehr</base-button>
+        <base-button type="primary"><router-link to="/galerie" class="nav-link nav-link-icon" style="color:white">Mehr</router-link></base-button>
             </div>
         </div>
     </container>
@@ -69,7 +69,7 @@ data() {
           
           loop: true,
            autoplay: {
-            delay: 2500            
+            delay: 5000
           },
           loopFillGroupWithBlank: true,
           pagination: {

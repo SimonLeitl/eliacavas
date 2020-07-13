@@ -3,7 +3,7 @@
     <section class="section-hero section-shaped my-0">
        
        
-        <video autoplay muted autobuffer preload class="video-container__video" id="vid">            
+        <video autoplay muted autobuffer preload class="video-container__video" id="vid">
             <source src="@/assets/Images/cameraframe_rendered.mp4" type="video/mp4">
         </video>
 
@@ -16,15 +16,16 @@
                     <img class="none" src="@/assets/Images/repeat_ic.png" style="width:10%;" />
                     <div id="background" class="col-lg-7 text-center pt-lg">
                         <!--<img src="img/brand/white.png" style="width: 200px;" class="img-fluid">-->
-                        <h1 style="color:white">Elia Cavas Produktfotografie</h1>
-                        <p class="lead text-white mt-4 mb-5"></p>
+                        <h3 style="color:white;">Verkaufsfördernde Produktfotos <br> für eine höhere Conversion Rate<br> und weniger Retouren</h3>
+                        <p class="lead text-white mt-4 mb-5" ></p>
                         <div class="btn-wrapper">
-                            <base-button tag="a" href="#" class="mb-3 mb-sm-0" type="primary"
+                            <base-button tag="a" href="#kontakt" class="mb-3 mb-sm-0" type="primary"
                                 icon="ni ni-camera-compact">
                                 jetzt Strategiegespräch vereinbaren
                             </base-button>
-                            <base-button tag="a" href="#" class="mb-3 mb-sm-0"  type="white" icon="ni ni-circle-08">
+                            <base-button tag="a" href="#leistungen" class="mb-3 mb-sm-0"  type="white" icon="ni ni-circle-08">
                                 Mehr Erfahren
+
                             </base-button>
 
                         </div>
@@ -33,9 +34,9 @@
 
             </div>
         </div>
-        <div class="container shape-container" style="posistion: absolute;  right: -25%; bottom: 0; opacity:0.15;">
-            <img  v-on:click="mute" id="mutebtn" src="@/assets/Images/mute_ic.png" style="width: 5%; height: auto; float: right;" />
-            <img v-on:click="repeat" id="repeatbtn" src="@/assets/Images/repeat_ic.png" style="width: 5%; height: auto; float: right;" />
+        <div class="container shape-container" style="posistion: absolute;  left:0; bottom: 0; opacity:0.75;">
+            <img  v-on:click="mute" id="mutebtn" src="@/assets/Images/mute_ic.png" style="width: 5%; height: auto; float: left;" />
+            <img v-on:click="repeat" id="repeatbtn" src="@/assets/Images/repeat_ic.png" style="width: 5%; height: auto; float: left;" />
         </div>
     </section>
 </template>

@@ -3,8 +3,8 @@
 
         <div class="row row-grid justify-content-center">
             <div class="col-lg-8 text-center">
-                <h2 class="display-3">FAQ
-                    <h4>häufig gestellte Fragen</h4>
+                <h2 class="display-3" style="padding-bottom:10px">FAQ
+                    <h4 >häufig gestellte Fragen</h4>
                 </h2>
 
 

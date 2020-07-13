@@ -1,5 +1,5 @@
 <template>
-    <section class="section leistungen">
+    <section class="section leistungen" id="leistungen">
 
             <div class="container" @mouseleave="showIconsAnimation = false">
                 <div class="row justify-content-center" @mouseover="showIconsAnimation = true">

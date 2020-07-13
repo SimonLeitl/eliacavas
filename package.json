@@ -12,7 +12,6 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
-
     "flatpickr": "^4.5.1",
     "jquery": "^3.5.1",
     "lightbox2": "^2.11.1",
