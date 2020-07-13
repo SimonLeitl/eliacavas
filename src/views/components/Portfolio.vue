@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row justify-content-center" @mouseover="showIconsAnimation = true">
             <div class="col-lg-8 text-center">
-                <h1 class="mb-0" style="">Portfolio</h1>
+                <h1 class="mb-0" style="">Portfolio test</h1>
                 <p>Lass dich inspirieren von meinen bisher angefertigten Produktfotos. Das reicht dir noch nicht? Hier in der Galerie findest du mehr Beispiele.</p>
             </div>
         </div>
@@ -37,7 +37,7 @@ import 'swiper/css/swiper.css'
 
 var x=3;
 
-   if (screen.width<800) {
+if (screen.width<800) {
        x = 1;
 } else if (screen.width<1200){
      x = 2;
