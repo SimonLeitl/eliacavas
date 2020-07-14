@@ -76,6 +76,9 @@
     .none {
         display: none;
     }
+    .section-hero{
+         background-color: black;
+    }
 
 
     .container.shape-container {
