@@ -22,11 +22,7 @@ const media = [
       src: '/img/gut.jpg',
      
     },
-    {
-      thumb: '/img/gut.jpg',
-      src: '/img/gut.jpg',
-      
-    },
+
     {
       thumb: '/img/Foto1_Alkoholmeter_button_neu.jpg',
       src: '/img/Foto1_Alkoholmeter_button_neu.jpg',

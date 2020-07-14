@@ -20,7 +20,7 @@
              <div class="row row-grid justify-content-center" style="margin-top:45px">
                  <div class="col-lg-4 col-sm-6">
                      <input type="name" class="form-control" name="nameTermin" aria-describedby="emailHelp" placeholder="Name">
-                     <base-input  addon-left-icon="ni ni-calendar-grid-58" style="width:240px;margin-top:30px">
+                     <base-input  addon-left-icon="ni ni-calendar-grid-58" cols="8" style="margin-top:30px">
                          <flat-picker slot-scope="{focus, blur}"
                                       @on-open="focus"
                                       @on-close="blur"
@@ -34,7 +34,7 @@
                  </div>
                  <div class="col-lg-4 col-sm-6">
                      <input type="email" class="form-control" name="emailTermin" aria-describedby="emailHelp" placeholder="E-Mail">
-                     <select id="inputState" class="form-control" style="width:240px;margin-top:30px;" name="uhrzeit">
+                     <select id="inputState" class="form-control" cols="8" style="margin-top:30px;" name="uhrzeit">
                          <option selected>8:00 Uhr</option>
                          <option>9:00 Uhr</option>
                          <option>10:00 Uhr</option>
@@ -103,11 +103,18 @@
                   </div>
 
               </div>
+
               </form>
             </div>
 
-        </div>
 
+        </div>
+        <div id="alertKontakt" class="alert alert-success alert-dismissible fade show" role="alert">
+            Erfolgreich!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
     </container>
     </section>
 </template>
@@ -191,6 +198,13 @@
                 var data = {name:field , rank: "MID RANGE"};
 
             $.post('mailElia.php', data)
+                 document.querySelector("input[name=name").value = 'Name';
+                 document.querySelector("input[name=nachname").value = 'Nachname';
+                 document.querySelector("input[name=email").value = 'E-Mail';
+                 document.querySelector("input[name=tel").value = 'Telefon';
+                 document.querySelector("textarea[name=nachricht").value = 'Nachricht';
+
+                 document.getElementById("alertKontakt").style.visibility = "visible";
              },
             terminMail(){
 
@@ -202,7 +216,12 @@
 
                 var data = {name:field ,mail:mail };
 
-                $.post('terminMail.php', data) }
+                $.post('terminMail.php', data)
+
+                document.querySelector("input[name=nameTermin").value = 'Name';
+                document.querySelector("input[name=emailTermin").value = 'Email';
+                document.getElementById("alertKontakt").style.visibility = "visible";
+            }
 
         }
     }
@@ -211,5 +230,7 @@
 </script>
 
 <style scoped>
-
+#alertKontakt{
+    visibility: hidden;
+}
 </style>

@@ -9,7 +9,7 @@ const media = [
 
   {
     thumb: '/img/DSC00013-31.jpg',
-    src: "/components/DSC00013-31.jpg" ,
+    src: "/img/DSC00013-31.jpg" ,
   },
   {
     thumb: '/img/Savour.jpg',

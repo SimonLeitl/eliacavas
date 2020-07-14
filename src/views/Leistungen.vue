@@ -359,14 +359,17 @@
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Du hast noch Fragen?</h4>
                             <p class="mt-0">Ich beantworte sie dir gerne!</p>
-                            <base-input class="mt-5" alternative placeholder="Name" addon-left-icon="ni ni-user-run">
+                            <base-input class="mt-5" alternative placeholder="Name"  addon-left-icon="ni ni-user-run">
+                                <input type="name" class="form-control" name="name" placeholder="Name">
                             </base-input>
-                            <base-input alternative placeholder="Email" addon-left-icon="ni ni-email-83"></base-input>
+                            <base-input alternative placeholder="Email" addon-left-icon="ni ni-email-83" name="mail">
+                                <input type="email" class="form-control" name="email" placeholder="E-Mail">
+                            </base-input>
                             <base-input class="mb-4">
-                                <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80"
+                                <textarea class="form-control form-control-alternative" name="nachricht" rows="4" cols="80"
                                     placeholder="Nachricht"></textarea>
                             </base-input>
-                            <base-button type="default" round block size="lg">Senden</base-button>
+                            <base-button v-on:click="mailTest" type="default" round block size="lg">Senden</base-button>
                         </card>
                     </div>
                 </div>
@@ -376,8 +379,8 @@
 </template>
 <script>
     import AOS from "aos";
-    import "aos/dist/aos.css";   
-   
+    import "aos/dist/aos.css";
+    import $ from 'jquery'
 
     AOS.init({
         duration: 1000,
@@ -406,6 +409,15 @@
             BCarousel,
             BCarouselSlide
         },
+        methods:{
+            mailTest(){
+                const field = "Name: " + document.querySelector("input[name=name]").value + "\n Email: " + document.querySelector("input[name=email]").value +  "\n Nachricht: " + document.querySelector("textarea[name=nachricht]").value
+
+                var data = {name:field , rank: "MID RANGE"};
+
+                $.post('mailElia.php', data)
+            }
+        }
 
         
 
