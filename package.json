@@ -10,6 +10,7 @@
   "dependencies": {
     "@vue/cli": "^4.4.6",
     "aos": "^2.3.4",
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "flatpickr": "^4.5.1",
@@ -20,6 +21,7 @@
     "swiper": "^5.4.2",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
+    "vue-axios": "^2.1.5",
     "vue-carousel-3d": "^0.2.0",
     "vue-flatpickr-component": "^8.1.1",
     "vue-image-lightbox": "^7.1.0",

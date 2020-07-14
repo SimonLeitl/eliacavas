@@ -8,7 +8,8 @@
                              @on-close="blur"
                              :config="{allowInput: true}"
                              class="form-control datepicker"
-                             v-model="dates.simple">
+                             v-model="dates.simple"
+                            id="flatpickerTermin">
                 </flat-picker>
             </base-input>
         </div>
