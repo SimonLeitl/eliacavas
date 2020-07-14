@@ -10,6 +10,7 @@ import Profile from "./views/Profile.vue";
 import Leistungen from "./views/Leistungen.vue";
 import Galerie from "./views/Galerie.vue";
 import UeberUns from "./views/UeberUns.vue";
+import Impressum from "./views/impressum.vue";
 
 
 Vue.use(Router);
@@ -79,6 +80,7 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Galerie,
+        footer: AppFooter
       }
     },
     {
@@ -87,6 +89,16 @@ export default new Router({
       components: {
         header: AppHeader,
         default: UeberUns,
+
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/impressum",
+      name: "impressum",
+      components: {
+        header: AppHeader,
+        default: Impressum,
 
         footer: AppFooter
       }
