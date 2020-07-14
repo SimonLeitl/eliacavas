@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-<swiper class="swiper" :options="swiperOption">    
+<swiper class="swiper" :options="swiperOption" style="align-self: stretch;">    
     <swiper-slide class="slide-1"></swiper-slide>
     <swiper-slide class="slide-2"></swiper-slide>
     <swiper-slide class="slide-3"></swiper-slide>
@@ -37,14 +37,17 @@ import 'swiper/css/swiper.css'
 
 var x=3;
 
-   if (screen.width<800) {
-       x = 1;
+        
+if (screen.width<800) {
+x = 1;
 } else if (screen.width<1200){
      x = 2;
 }
 else {
      x = 3;
 }
+    
+
        
     
 export default {
@@ -66,6 +69,7 @@ data() {
           slidesPerView: x,
           spaceBetween: 10,
           slidesPerGroup: 1,
+          
           
           loop: true,
            autoplay: {
@@ -94,14 +98,16 @@ data() {
     padding-top:2%;
 
     .swiper-slide {
+      background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
+      background-size: 100% auto;
+      
 
       &.slide-1 {
-       background-image:url(Savour.jpg)
+       background-image:url(Savour2.jpg)
       }
       &.slide-2 {
-        background-image:url(DSC00013-31.jpg)
+        background-image:url(DSC00013-33.jpg)
       }
       &.slide-3 {
         background-image:url(Duschbrocken.jpg)
