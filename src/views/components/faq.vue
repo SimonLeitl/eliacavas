@@ -14,10 +14,10 @@
                     <div data-aos="fade-up"
                          data-aos-anchor-placement="bottom-bottom"
                         data-aos-delay="100">
-                    <div class="card">
+                    <div class="card" id="faqCard">
                         <div class="card-header" id="headingOne">
                             <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingButton">
                                    Können auch Fotos mit echten Models erstellt werden?
                                 </button>
                             </h2>
@@ -36,7 +36,7 @@
                     <div class="card">
                         <div class="card-header" id="headingTwo">
                             <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingButton">
                                     Was kostet ein Produktfoto?
                                 </button>
                             </h2>
@@ -58,7 +58,7 @@
                     <div class="card">
                         <div class="card-header" id="headingThree">
                             <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="headingButton">
                                     Gibt es die Möglichkeiten Änderungen an den Fotos zu machen?
                                 </button>
                             </h2>
@@ -74,9 +74,9 @@
                          data-aos-anchor-placement="bottom-bottom"
                          data-aos-delay="400">
                     <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="card-header">
+                            <h2 class="mb-0" id="headingFour">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="headingButton">
                                     Was passiert mit meinem Produkt, nach dem Fotoshooting?
                                 </button>
                             </h2>
@@ -109,5 +109,17 @@
 </script>
 
 <style scoped>
+    @media only screen and (max-width: 430px){
+      #headingFour{
+         font-size: 10px;
+      }
 
+    #headingButton{
+       font-size:9px;
+    }
+
+    }
+    #headingFour{
+
+    }
 </style>

@@ -11,7 +11,7 @@ import Leistungen from "./views/Leistungen.vue";
 import Galerie from "./views/Galerie.vue";
 import UeberUns from "./views/UeberUns.vue";
 import Impressum from "./views/impressum.vue";
-
+import Datenschutz from "./views/datenschutz.vue";
 
 Vue.use(Router);
 
@@ -102,7 +102,17 @@ export default new Router({
 
         footer: AppFooter
       }
-    }
+    },
+    {
+      path: "/datenschutz",
+      name: "datenschutz",
+      components: {
+        header: AppHeader,
+        default: Datenschutz,
+
+        footer: AppFooter
+      }
+    },
   ],
   scrollBehavior: to => {
     if (to.hash) {

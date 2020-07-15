@@ -53,8 +53,8 @@
                             <router-link to="/impressum" class="nav-link nav-link-icon">Impressum</router-link>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" target="_blank" rel="noopener">Datenschutz</a>
 
+                            <router-link to="/datenschutz" class="nav-link nav-link-icon">Datenschutz</router-link>
                         </li>
 
 

@@ -92,7 +92,7 @@ const media = [
     },
 
     //Socialmedia
-    {
+   {
       thumb: '/img/135_4.jpg',
       src: '/img/135_4.jpg',
       

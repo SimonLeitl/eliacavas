@@ -7,18 +7,18 @@
 
         <div class="row row-grid">
 
-           <div class="col col-sm-5 hidden-sm-down" id="kontakt-links">
+           <div class="col col-md-5  " id="kontakt-links">
 
                <div class="row row-grid justify-content-center">
-                    <h3 class="text-secondary" style="padding-top:20px">Lass uns über Dein Produkt reden!</h3>
+                    <h3 class="text-secondary" style="padding-top:20px" id="terminTitelMobil">Lass uns über Dein Produkt reden!</h3>
 
                 </div>
                <div class="row  justify-content-center">
                    <p style="color:white"> Jetzt einen kostenlosen Skype-Termin vereinbaren</p>
                </div>
 
-             <div class="row row-grid justify-content-center" style="margin-top:45px">
-                 <div class="col-lg-4 col-sm-6">
+             <div class="row row-grid justify-content-center" style="margin-top:45px" id="terminFelderMobil">
+                 <div class="col-lg-4 col-sm-6" >
                      <input type="name" class="form-control" name="nameTermin" aria-describedby="emailHelp" placeholder="Name">
                      <base-input  addon-left-icon="ni ni-calendar-grid-58" cols="8" style="margin-top:30px">
                          <flat-picker slot-scope="{focus, blur}"
@@ -32,7 +32,7 @@
                          </flat-picker>
                      </base-input>
                  </div>
-                 <div class="col-lg-4 col-sm-6">
+                 <div class="col-lg-4 col-sm-6" id="emailMobil">
                      <input type="email" class="form-control" name="emailTermin" aria-describedby="emailHelp" placeholder="E-Mail">
                      <select id="inputState" class="form-control" cols="8" style="margin-top:30px;" name="uhrzeit">
                          <option selected>8:00 Uhr</option>
@@ -51,6 +51,7 @@
 
                  </div>
              </div>
+
                    <div class="row  justify-content-center">
 
 
@@ -67,14 +68,14 @@
 
             </div>
 
-          <div class="col col-sm-7 bg-secondary text-center">
+          <div class="col-md col-md-7 bg-secondary text-center">
               <div class="mb-3">
                 <h3 style="padding-top:20px">Kontakt</h3>
               </div>
               <form id="kontaktTest" action="mailElia.php" method="POST">
               <div class="row row-grid justify-content-center">
                   <div class="col-lg-4 col-sm-6">
-                      <input type="name" class="form-control" name="name" aria-describedby="emailHelp" placeholder="Name">
+                      <input type="name" class="form-control " name="name" id="validationDefault01" aria-describedby="emailHelp" placeholder="Name" required>
                       <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="E-Mail" style="margin-top:25px;">
                   </div>
                   <div class="col-lg-4 col-sm-6">
@@ -224,6 +225,7 @@
             }
 
         }
+
     }
 
 
@@ -233,4 +235,25 @@
 #alertKontakt{
     visibility: hidden;
 }
+    @media only screen and (max-width: 430px){
+        #kontakt-links{
+
+            margin-bottom:10px;
+            padding-bottom:20px;
+        }
+        #emailMobil{
+            margin-top:12px;
+        }
+        #terminTitelMobil {
+            text-align: center;
+            font-size: 22px;
+        }
+        #terminFelderMobil{
+            margin-top:-25px;
+        }
+        #inputState{
+
+        }
+
+    }
 </style>

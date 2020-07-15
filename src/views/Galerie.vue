@@ -21,7 +21,7 @@
 
             <div class="row gallery">
                 <ul style="text-align: center;" class="ulist">                     
-                    <li v-for="(image, index) in media.slice(0,20)" :key="index"
+                    <li v-for="(image, index) in media.slice(0,19)" :key="index"
                      style="display: inline-block; padding:1%;" class="list" data-aos="fade-down">                       
                         <div class="overlay">
                             <a class="icon" title="User Profile">

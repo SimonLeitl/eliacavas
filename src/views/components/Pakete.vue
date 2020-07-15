@@ -22,7 +22,7 @@
                                 </p>
                             </div>
                             <div class="card-footer bg-secondary">
-                                <a href="#" class="button">Preise auf Anfrage</a>
+                                <a href="#kontakt" class="button">Preise auf Anfrage</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                                 </ul>
                             </div>
                             <div class="card-footer bg-secondary">
-                                <a href="#" class="button">Preise auf Anfrage</a>
+                                <a href="#kontakt" class="button">Preise auf Anfrage</a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                                 </p>
                             </div>
                             <div class="card-footer bg-secondary">
-                                <a href="#" class="button">Preise auf Anfrage</a>
+                                <a href="#kontakt" class="button">Preise auf Anfrage</a>
                             </div>
                         </div>
                     </div>
