@@ -129,9 +129,13 @@
         components: {flatPicker},
 
         data() {
+            const today = new Date();
+            const date= today.getFullYear()+"-"+(today.getMonth()+1)+"-"+today.getDate()
             return {
+
+
                 dates: {
-                    simple: "2020-07-14"
+                    simple: date
                 },
                 configs:{
                     termin:{

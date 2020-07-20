@@ -43,7 +43,7 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="https://ecava.uber.space" target="_blank" rel="noopener">Elia Cavas</a>
+                        Elia Cavas
                     </div>
                 </div>
                 <div class="col-md-6">
